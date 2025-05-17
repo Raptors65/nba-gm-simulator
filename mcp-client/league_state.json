@@ -5235,6 +5235,677 @@
       "proposed_by": "TOR",
       "timestamp": "2025-05-17T14:15:28.178594",
       "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517144944",
+      "team1": "BKN",
+      "team2": "DET",
+      "team1_players": [
+        "BKN_1"
+      ],
+      "team2_players": [
+        "DET_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T14:49:44.679864",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145007",
+      "team1": "WAS",
+      "team2": "CHI",
+      "team1_players": [
+        "WAS_5",
+        "WAS_3"
+      ],
+      "team2_players": [
+        "CHI_1",
+        "CHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "WAS",
+      "timestamp": "2025-05-17T14:50:07.378542",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145007",
+      "team1": "WAS",
+      "team2": "PHX",
+      "team1_players": [
+        "WAS_5",
+        "WAS_3",
+        "WAS_1"
+      ],
+      "team2_players": [
+        "PHX_1",
+        "PHX_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "WAS",
+      "timestamp": "2025-05-17T14:50:07.378876",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145007",
+      "team1": "WAS",
+      "team2": "IND",
+      "team1_players": [
+        "WAS_5",
+        "WAS_3",
+        "WAS_1",
+        "WAS_2",
+        "WAS_4"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "WAS",
+      "timestamp": "2025-05-17T14:50:07.379298",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145020",
+      "team1": "BOS",
+      "team2": "SAS",
+      "team1_players": [
+        "BOS_5"
+      ],
+      "team2_players": [
+        "SAS_1",
+        "SAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BOS",
+      "timestamp": "2025-05-17T14:50:20.971318",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145020",
+      "team1": "BOS",
+      "team2": "MIA",
+      "team1_players": [
+        "BOS_5",
+        "BOS_4"
+      ],
+      "team2_players": [
+        "MIA_1",
+        "MIA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BOS",
+      "timestamp": "2025-05-17T14:50:20.971574",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145030",
+      "team1": "POR",
+      "team2": "NYK",
+      "team1_players": [
+        "POR_3",
+        "POR_2"
+      ],
+      "team2_players": [
+        "NYK_1",
+        "NYK_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "POR",
+      "timestamp": "2025-05-17T14:50:30.070173",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145030",
+      "team1": "POR",
+      "team2": "GSW",
+      "team1_players": [
+        "POR_3",
+        "POR_2"
+      ],
+      "team2_players": [
+        "GSW_1",
+        "GSW_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "POR",
+      "timestamp": "2025-05-17T14:50:30.070417",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145039",
+      "team1": "HOU",
+      "team2": "POR",
+      "team1_players": [
+        "HOU_3",
+        "HOU_4"
+      ],
+      "team2_players": [
+        "POR_1",
+        "POR_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "HOU",
+      "timestamp": "2025-05-17T14:50:39.368733",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145039",
+      "team1": "HOU",
+      "team2": "CHA",
+      "team1_players": [
+        "HOU_3",
+        "HOU_4"
+      ],
+      "team2_players": [
+        "CHA_1",
+        "CHA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "HOU",
+      "timestamp": "2025-05-17T14:50:39.368853",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145048",
+      "team1": "TOR",
+      "team2": "MIA",
+      "team1_players": [
+        "TOR_3",
+        "TOR_2"
+      ],
+      "team2_players": [
+        "MIA_1",
+        "MIA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T14:50:48.117612",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145048",
+      "team1": "TOR",
+      "team2": "UTA",
+      "team1_players": [
+        "TOR_3"
+      ],
+      "team2_players": [
+        "UTA_1",
+        "UTA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T14:50:48.117743",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145056",
+      "team1": "ORL",
+      "team2": "MIL",
+      "team1_players": [
+        "ORL_4",
+        "ORL_1",
+        "ORL_3"
+      ],
+      "team2_players": [
+        "MIL_1",
+        "MIL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "ORL",
+      "timestamp": "2025-05-17T14:50:56.812297",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145056",
+      "team1": "ORL",
+      "team2": "SAC",
+      "team1_players": [
+        "ORL_4",
+        "ORL_1",
+        "ORL_3",
+        "ORL_2",
+        "ORL_5"
+      ],
+      "team2_players": [
+        "SAC_1",
+        "SAC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "ORL",
+      "timestamp": "2025-05-17T14:50:56.812652",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145106",
+      "team1": "DET",
+      "team2": "HOU",
+      "team1_players": [
+        "DET_2"
+      ],
+      "team2_players": [
+        "HOU_1",
+        "HOU_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DET",
+      "timestamp": "2025-05-17T14:51:06.348753",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145106",
+      "team1": "DET",
+      "team2": "IND",
+      "team1_players": [
+        "DET_2",
+        "DET_4",
+        "DET_1"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DET",
+      "timestamp": "2025-05-17T14:51:06.349060",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145115",
+      "team1": "DEN",
+      "team2": "SAC",
+      "team1_players": [
+        "DEN_5",
+        "DEN_3",
+        "DEN_4"
+      ],
+      "team2_players": [
+        "SAC_1",
+        "SAC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DEN",
+      "timestamp": "2025-05-17T14:51:15.585676",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145115",
+      "team1": "DEN",
+      "team2": "IND",
+      "team1_players": [
+        "DEN_5",
+        "DEN_3",
+        "DEN_4"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DEN",
+      "timestamp": "2025-05-17T14:51:15.585973",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145124",
+      "team1": "UTA",
+      "team2": "GSW",
+      "team1_players": [
+        "UTA_5",
+        "UTA_1",
+        "UTA_3"
+      ],
+      "team2_players": [
+        "GSW_1",
+        "GSW_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "UTA",
+      "timestamp": "2025-05-17T14:51:24.085365",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145124",
+      "team1": "UTA",
+      "team2": "DEN",
+      "team1_players": [
+        "UTA_5",
+        "UTA_1"
+      ],
+      "team2_players": [
+        "DEN_1",
+        "DEN_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "UTA",
+      "timestamp": "2025-05-17T14:51:24.085563",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145124",
+      "team1": "UTA",
+      "team2": "HOU",
+      "team1_players": [
+        "UTA_5"
+      ],
+      "team2_players": [
+        "HOU_1",
+        "HOU_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "UTA",
+      "timestamp": "2025-05-17T14:51:24.085676",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145136",
+      "team1": "LAL",
+      "team2": "WAS",
+      "team1_players": [
+        "LAL_3",
+        "LAL_5"
+      ],
+      "team2_players": [
+        "WAS_1",
+        "WAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAL",
+      "timestamp": "2025-05-17T14:51:36.032521",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145136",
+      "team1": "LAL",
+      "team2": "CHI",
+      "team1_players": [
+        "LAL_3",
+        "LAL_5"
+      ],
+      "team2_players": [
+        "CHI_1",
+        "CHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAL",
+      "timestamp": "2025-05-17T14:51:36.032832",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145136",
+      "team1": "LAL",
+      "team2": "HOU",
+      "team1_players": [
+        "LAL_3"
+      ],
+      "team2_players": [
+        "HOU_1",
+        "HOU_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAL",
+      "timestamp": "2025-05-17T14:51:36.033210",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145150",
+      "team1": "GSW",
+      "team2": "BOS",
+      "team1_players": [
+        "GSW_4",
+        "GSW_3"
+      ],
+      "team2_players": [
+        "BOS_1",
+        "BOS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "GSW",
+      "timestamp": "2025-05-17T14:51:50.225809",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145150",
+      "team1": "GSW",
+      "team2": "WAS",
+      "team1_players": [
+        "GSW_4",
+        "GSW_3"
+      ],
+      "team2_players": [
+        "WAS_1",
+        "WAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "GSW",
+      "timestamp": "2025-05-17T14:51:50.226079",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145150",
+      "team1": "GSW",
+      "team2": "MIN",
+      "team1_players": [
+        "GSW_4"
+      ],
+      "team2_players": [
+        "MIN_1",
+        "MIN_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "GSW",
+      "timestamp": "2025-05-17T14:51:50.226280",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145203",
+      "team1": "CLE",
+      "team2": "ORL",
+      "team1_players": [
+        "CLE_2"
+      ],
+      "team2_players": [
+        "ORL_1",
+        "ORL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T14:52:03.007526",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145203",
+      "team1": "CLE",
+      "team2": "CHA",
+      "team1_players": [
+        "CLE_2",
+        "CLE_5"
+      ],
+      "team2_players": [
+        "CHA_1",
+        "CHA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T14:52:03.007651",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145203",
+      "team1": "CLE",
+      "team2": "POR",
+      "team1_players": [
+        "CLE_2",
+        "CLE_5",
+        "CLE_4"
+      ],
+      "team2_players": [
+        "POR_1",
+        "POR_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T14:52:03.007754",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145216",
+      "team1": "SAC",
+      "team2": "WAS",
+      "team1_players": [
+        "SAC_3",
+        "SAC_4"
+      ],
+      "team2_players": [
+        "WAS_1",
+        "WAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "SAC",
+      "timestamp": "2025-05-17T14:52:16.003078",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145216",
+      "team1": "SAC",
+      "team2": "ORL",
+      "team1_players": [
+        "SAC_3",
+        "SAC_4"
+      ],
+      "team2_players": [
+        "ORL_1",
+        "ORL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "SAC",
+      "timestamp": "2025-05-17T14:52:16.003359",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145216",
+      "team1": "SAC",
+      "team2": "TOR",
+      "team1_players": [
+        "SAC_3",
+        "SAC_4"
+      ],
+      "team2_players": [
+        "TOR_1",
+        "TOR_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "SAC",
+      "timestamp": "2025-05-17T14:52:16.003809",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145229",
+      "team1": "LAC",
+      "team2": "GSW",
+      "team1_players": [
+        "LAC_2",
+        "LAC_3",
+        "LAC_5"
+      ],
+      "team2_players": [
+        "GSW_1",
+        "GSW_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAC",
+      "timestamp": "2025-05-17T14:52:29.509873",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145229",
+      "team1": "LAC",
+      "team2": "MIL",
+      "team1_players": [
+        "LAC_2",
+        "LAC_3",
+        "LAC_5"
+      ],
+      "team2_players": [
+        "MIL_1",
+        "MIL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAC",
+      "timestamp": "2025-05-17T14:52:29.510006",
+      "counter_trade_id": null
     }
   ]
 }

@@ -33,7 +33,7 @@ export default function LeagueActivity({ refreshKey = 0 }: LeagueActivityProps) 
     const fetchActivity = async () => {
       try {
         setLoading(true);
-        const response = await fetch('http://127.0.0.1:5000/api/league/activity?limit=15');
+        const response = await fetch('http://127.0.0.1:5001/api/league/activity?limit=15');
         if (!response.ok) {
           throw new Error('Failed to fetch league activity');
         }

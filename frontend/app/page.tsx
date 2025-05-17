@@ -16,7 +16,7 @@ export default function Home() {
     if (viewMode === 'gm' && selectedTeam && selectedTeam !== userGmTeam) {
       const selectTeamOnServer = async () => {
         try {
-          const response = await fetch('http://127.0.0.1:5000/api/team/select', {
+          const response = await fetch('http://127.0.0.1:5001/api/team/select', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',

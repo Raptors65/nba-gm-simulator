@@ -6,14 +6,24 @@ from typing import Dict, List, Optional, Any
 from datetime import datetime, timedelta
 from models import LeagueState, Team, Player, Trade, TradeProposal, TradeResponse
 import sys
+from contextlib import AsyncExitStack
+from dotenv import load_dotenv
 
+from mcp import ClientSession, StdioServerParameters
+from mcp.client.stdio import stdio_client
 from anthropic import Anthropic
 
-# Initialize the Anthropic client
+# Load environment variables from .env file
+load_dotenv()
+
+# Initialize the Anthropic client with API key from environment
 anthropic = Anthropic()
 
 class GMAgent:
     def __init__(self, team_abbr: str, league_state: LeagueState):
+        # MCP session for accessing NBA API tools
+        self.mcp_session = None
+        self.exit_stack = AsyncExitStack()
         self.team_abbr = team_abbr
         self.league_state = league_state
         self.team = league_state.get_team_by_abbreviation(team_abbr)
@@ -409,6 +419,32 @@ class GMAgent:
         
         return TradeProposal(trade=trade, message=message)
     
+    async def connect_to_mcp_server(self, server_script_path: str = "trade_mcp_server.py"):
+        """Connect to the NBA MCP server for enhanced trade evaluations"""
+        try:
+            server_params = StdioServerParameters(
+                command="python",
+                args=[server_script_path],
+                env=None
+            )
+            
+            stdio_transport = await self.exit_stack.enter_async_context(stdio_client(server_params))
+            stdio, write = stdio_transport
+            self.mcp_session = await self.exit_stack.enter_async_context(ClientSession(stdio, write))
+            
+            await self.mcp_session.initialize()
+            return True
+        except Exception as e:
+            print(f"Error connecting to MCP server: {e}")
+            return False
+    
+    async def disconnect_from_mcp_server(self):
+        """Disconnect from the NBA MCP server"""
+        if self.exit_stack:
+            await self.exit_stack.aclose()
+            self.exit_stack = AsyncExitStack()
+            self.mcp_session = None
+    
     async def evaluate_trade_with_claude(self, trade: Trade) -> Dict[str, Any]:
         """Use Claude to evaluate a trade in more detail"""
         # Determine which side we're on
@@ -450,6 +486,24 @@ class GMAgent:
             for p in their_players
         ]
         
+        # Try to connect to the MCP server if not already connected
+        have_mcp_tools = False
+        available_tools = []
+        if not self.mcp_session:
+            connected = await self.connect_to_mcp_server()
+            if connected:
+                try:
+                    # Get available tools from MCP server
+                    response = await self.mcp_session.list_tools()
+                    available_tools = [{ 
+                        "name": tool.name,
+                        "description": tool.description,
+                        "input_schema": tool.inputSchema
+                    } for tool in response.tools]
+                    have_mcp_tools = len(available_tools) > 0
+                except Exception as e:
+                    print(f"Error listing MCP tools: {e}")
+        
         # Create prompt for Claude
         prompt = f"""You are the General Manager of the {our_team.city} {our_team.name}. 
 You're considering a trade with the {other_team.city} {other_team.name}.
@@ -478,17 +532,65 @@ Then respond in the following JSON format:
 }}"""
 
         try:
-            # Call Claude
-            response = anthropic.messages.create(
-                model="claude-3-5-sonnet-20241022",
-                max_tokens=1000,
-                temperature=0.7,
-                system="You are an experienced NBA General Manager making trade decisions. Your response must be valid JSON.",
-                messages=[{"role": "user", "content": prompt}]
-            )
+            # Set up messages for Claude
+            messages = [{
+                "role": "user", 
+                "content": prompt
+            }]
             
-            # Parse response
-            text_response = response.content[0].text
+            # Create parameters for Claude API call
+            claude_params = {
+                "model": "claude-3-5-sonnet-20241022",
+                "max_tokens": 1000,
+                "temperature": 0.7,
+                "system": "You are an experienced NBA General Manager making trade decisions. Your response must be valid JSON.",
+                "messages": messages
+            }
+            
+            # Add available tools if we have them
+            if have_mcp_tools:
+                claude_params["tools"] = available_tools
+            
+            # Call Claude with or without tools
+            response = anthropic.messages.create(**claude_params)
+            
+            # Process response and handle tool calls
+            tool_results = []
+            final_text = []
+            
+            for content in response.content:
+                if content.type == 'text':
+                    final_text.append(content.text)
+                elif content.type == 'tool_use' and self.mcp_session:
+                    tool_name = content.name
+                    tool_args = content.input
+                    
+                    # Execute tool call through MCP
+                    try:
+                        result = await self.mcp_session.call_tool(tool_name, tool_args)
+                        tool_results.append({"call": tool_name, "result": result})
+                        
+                        # Continue conversation with tool results
+                        if hasattr(content, 'text') and content.text:
+                            messages.append({"role": "assistant", "content": content.text})
+                        messages.append({"role": "user", "content": result.content})
+                        
+                        # Get next response from Claude
+                        follow_up = anthropic.messages.create(
+                            model="claude-3-5-sonnet-20241022",
+                            max_tokens=1000,
+                            temperature=0.7,
+                            system="You are an experienced NBA General Manager making trade decisions. Your response must be valid JSON.",
+                            messages=messages
+                        )
+                        
+                        if follow_up.content and len(follow_up.content) > 0 and follow_up.content[0].type == 'text':
+                            final_text.append(follow_up.content[0].text)
+                    except Exception as e:
+                        print(f"Error executing tool {tool_name}: {e}")
+            
+            # Get the final text response (prefer the last text response if multiple)
+            text_response = final_text[-1] if final_text else ""
             
             # Extract JSON
             try:
@@ -586,8 +688,9 @@ Then respond in the following JSON format:
 
 # Manager class to coordinate multiple GM agents
 class GMAgentManager:
-    def __init__(self, league_state_path: str = "league_state.json"):
+    def __init__(self, league_state_path: str = "league_state.json", mcp_server_path: str = "trade_mcp_server.py"):
         self.league_state_path = league_state_path
+        self.mcp_server_path = mcp_server_path
         self.league_state = LeagueState.load(league_state_path)
         if not self.league_state.teams:
             from models import initialize_league
@@ -624,8 +727,13 @@ class GMAgentManager:
         # Add to league state
         self.league_state.trades.append(trade)
         
+        # Initialize MCP for target team agent if needed
+        target_agent = self.agents[target_team]
+        if not target_agent.mcp_session:
+            await target_agent.connect_to_mcp_server(self.mcp_server_path)
+        
         # Let the target team's agent evaluate
-        response = await self.agents[target_team].respond_to_trade(trade)
+        response = await target_agent.respond_to_trade(trade)
         
         # If accepted, execute the trade
         if response.status == "accepted":
@@ -646,8 +754,13 @@ class GMAgentManager:
         # Add to league state
         self.league_state.trades.append(trade)
         
+        # Initialize MCP for target team agent if needed
+        target_agent = self.agents[target_team]
+        if not target_agent.mcp_session:
+            await target_agent.connect_to_mcp_server(self.mcp_server_path)
+        
         # Let the target team's agent evaluate
-        response = await self.agents[target_team].respond_to_trade(trade)
+        response = await target_agent.respond_to_trade(trade)
         
         # If accepted, execute the trade
         if response.status == "accepted":
@@ -833,14 +946,26 @@ async def main():
     # Create an agent
     agent = GMAgent("LAL", league)
     
-    # Test trade generation
-    proposal = agent.generate_trade_proposal("BOS")
-    print(f"Trade Proposal: {proposal}")
-    
-    # Test trade evaluation
-    if proposal:
-        evaluation = await agent.evaluate_trade_with_claude(proposal.trade)
-        print(f"Evaluation: {evaluation}")
-    
+    try:
+        # Connect to MCP server
+        connected = await agent.connect_to_mcp_server()
+        if connected:
+            print("Connected to NBA MCP server successfully.")
+        else:
+            print("Warning: Could not connect to NBA MCP server, proceeding without NBA API tools.")
+        
+        # Test trade generation
+        proposal = agent.generate_trade_proposal("BOS")
+        print(f"Trade Proposal: {proposal}")
+        
+        # Test trade evaluation
+        if proposal:
+            evaluation = await agent.evaluate_trade_with_claude(proposal.trade)
+            print(f"Evaluation: {evaluation}")
+    finally:
+        # Clean up MCP resources
+        if hasattr(agent, 'disconnect_from_mcp_server'):
+            await agent.disconnect_from_mcp_server()
+
 if __name__ == "__main__":
     asyncio.run(main())

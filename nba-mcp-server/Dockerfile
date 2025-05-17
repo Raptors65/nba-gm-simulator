@@ -17,5 +17,5 @@ EXPOSE 5000
 CMD ["python", "nba_server.py"]
 
 # docker build -t nba_server .
-# docker run -p 4000:5000 nba_server
+# docker run -p 4000:5001 nba_server
 

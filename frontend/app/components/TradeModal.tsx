@@ -55,7 +55,7 @@ export default function TradeModal({
   useEffect(() => {
     const fetchTeams = async () => {
       try {
-        const response = await fetch('http://127.0.0.1:5000/api/teams');
+        const response = await fetch('http://127.0.0.1:5001/api/teams');
         if (!response.ok) {
           throw new Error('Failed to fetch teams');
         }
@@ -78,7 +78,7 @@ export default function TradeModal({
       const fetchTeamPlayers = async () => {
         try {
           setLoading(true);
-          const response = await fetch(`http://127.0.0.1:5000/api/team/roster/${selectedTeam.abbreviation}`);
+          const response = await fetch(`http://127.0.0.1:5001/api/team/roster/${selectedTeam.abbreviation}`);
           if (!response.ok) {
             throw new Error('Failed to fetch team roster');
           }
@@ -159,7 +159,7 @@ export default function TradeModal({
         message: tradeMessage || 'Trade proposal from user'
       };
 
-      const response = await fetch('http://127.0.0.1:5000/api/trade/propose', {
+      const response = await fetch('http://127.0.0.1:5001/api/trade/propose', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -205,7 +205,7 @@ export default function TradeModal({
     try {
       setSubmitting(true);
       
-      const response = await fetch('http://127.0.0.1:5000/api/trade/respond', {
+      const response = await fetch('http://127.0.0.1:5001/api/trade/respond', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -250,7 +250,7 @@ export default function TradeModal({
     try {
       setSubmitting(true);
       
-      const response = await fetch('http://127.0.0.1:5000/api/trade/respond', {
+      const response = await fetch('http://127.0.0.1:5001/api/trade/respond', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

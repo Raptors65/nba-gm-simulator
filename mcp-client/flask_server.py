@@ -313,4 +313,4 @@ if __name__ == '__main__':
     initialize_league()
     
     # Run the Flask server
-    app.run(debug=True)
+    app.run(debug=True, port=5001)
