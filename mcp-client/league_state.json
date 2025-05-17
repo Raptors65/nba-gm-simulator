@@ -585,44 +585,6 @@
       "division": "Central",
       "players": [
         {
-          "id": "CHI_1",
-          "name": "Zach LaVine",
-          "position": "PG",
-          "age": 35,
-          "height": "7'8\"",
-          "weight": 198,
-          "salary": 8447634.11,
-          "contract_years": 4,
-          "stats": {
-            "ppg": 15.3,
-            "rpg": 3.7,
-            "apg": 5.7,
-            "spg": 1.0,
-            "bpg": 0.9,
-            "fg_pct": 0.43,
-            "fg3_pct": 0.35
-          }
-        },
-        {
-          "id": "CHI_2",
-          "name": "DeMar DeRozan",
-          "position": "SG",
-          "age": 26,
-          "height": "7'7\"",
-          "weight": 203,
-          "salary": 19250986.67,
-          "contract_years": 1,
-          "stats": {
-            "ppg": 29.3,
-            "rpg": 7.0,
-            "apg": 1.0,
-            "spg": 1.1,
-            "bpg": 1.7,
-            "fg_pct": 0.54,
-            "fg3_pct": 0.4
-          }
-        },
-        {
           "id": "CHI_3",
           "name": "Nikola Vu\u010devi\u0107",
           "position": "SF",
@@ -677,6 +639,44 @@
             "bpg": 1.2,
             "fg_pct": 0.45,
             "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "DAL_3",
+          "name": "Derrick Jones Jr.",
+          "position": "SF",
+          "age": 22,
+          "height": "7'5\"",
+          "weight": 218,
+          "salary": 18143197.52,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 11.6,
+            "rpg": 9.2,
+            "apg": 2.7,
+            "spg": 0.7,
+            "bpg": 2.0,
+            "fg_pct": 0.55,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "DAL_1",
+          "name": "Luka Don\u010di\u0107",
+          "position": "PG",
+          "age": 20,
+          "height": "7'10\"",
+          "weight": 252,
+          "salary": 34776649.21,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 17.9,
+            "rpg": 8.1,
+            "apg": 3.4,
+            "spg": 0.9,
+            "bpg": 2.0,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.32
           }
         }
       ],
@@ -873,25 +873,6 @@
       "division": "Southwest",
       "players": [
         {
-          "id": "DAL_1",
-          "name": "Luka Don\u010di\u0107",
-          "position": "PG",
-          "age": 20,
-          "height": "7'10\"",
-          "weight": 252,
-          "salary": 34776649.21,
-          "contract_years": 5,
-          "stats": {
-            "ppg": 17.9,
-            "rpg": 8.1,
-            "apg": 3.4,
-            "spg": 0.9,
-            "bpg": 2.0,
-            "fg_pct": 0.41,
-            "fg3_pct": 0.32
-          }
-        },
-        {
           "id": "DAL_2",
           "name": "Kyrie Irving",
           "position": "SG",
@@ -908,25 +889,6 @@
             "bpg": 0.8,
             "fg_pct": 0.5,
             "fg3_pct": 0.3
-          }
-        },
-        {
-          "id": "DAL_3",
-          "name": "Derrick Jones Jr.",
-          "position": "SF",
-          "age": 22,
-          "height": "7'5\"",
-          "weight": 218,
-          "salary": 18143197.52,
-          "contract_years": 4,
-          "stats": {
-            "ppg": 11.6,
-            "rpg": 9.2,
-            "apg": 2.7,
-            "spg": 0.7,
-            "bpg": 2.0,
-            "fg_pct": 0.55,
-            "fg3_pct": 0.31
           }
         },
         {
@@ -965,6 +927,44 @@
             "bpg": 1.4,
             "fg_pct": 0.47,
             "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "CHI_1",
+          "name": "Zach LaVine",
+          "position": "PG",
+          "age": 35,
+          "height": "7'8\"",
+          "weight": 198,
+          "salary": 8447634.11,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 15.3,
+            "rpg": 3.7,
+            "apg": 5.7,
+            "spg": 1.0,
+            "bpg": 0.9,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "CHI_2",
+          "name": "DeMar DeRozan",
+          "position": "SG",
+          "age": 26,
+          "height": "7'7\"",
+          "weight": 203,
+          "salary": 19250986.67,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 29.3,
+            "rpg": 7.0,
+            "apg": 1.0,
+            "spg": 1.1,
+            "bpg": 1.7,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.4
           }
         }
       ],
@@ -6092,6 +6092,215 @@
       "status": "proposed",
       "proposed_by": "user",
       "timestamp": "2025-05-17T15:40:57.252484",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517154900",
+      "team1": "TOR",
+      "team2": "NYK",
+      "team1_players": [
+        "TOR_3",
+        "TOR_2"
+      ],
+      "team2_players": [
+        "NYK_1",
+        "NYK_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T15:49:00.323524",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517154900",
+      "team1": "TOR",
+      "team2": "BKN",
+      "team1_players": [
+        "TOR_3"
+      ],
+      "team2_players": [
+        "BKN_1",
+        "BKN_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T15:49:00.323917",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517154915",
+      "team1": "OKC",
+      "team2": "PHX",
+      "team1_players": [
+        "OKC_4",
+        "OKC_2",
+        "OKC_3"
+      ],
+      "team2_players": [
+        "PHX_1",
+        "PHX_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "OKC",
+      "timestamp": "2025-05-17T15:49:15.686471",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517155130",
+      "team1": "CHI",
+      "team2": "SAS",
+      "team1_players": [
+        "CHI_1",
+        "CHI_4"
+      ],
+      "team2_players": [
+        "SAS_1",
+        "SAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CHI",
+      "timestamp": "2025-05-17T15:51:30.691966",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517155230",
+      "team1": "LAC",
+      "team2": "MIA",
+      "team1_players": [
+        "LAC_2",
+        "CLE_2"
+      ],
+      "team2_players": [
+        "MIA_1",
+        "MIA_3"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAC",
+      "timestamp": "2025-05-17T15:52:30.894632",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517155238",
+      "team1": "DAL",
+      "team2": "CHI",
+      "team1_players": [
+        "DAL_3",
+        "DAL_1"
+      ],
+      "team2_players": [
+        "CHI_1",
+        "CHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "accepted",
+      "proposed_by": "DAL",
+      "timestamp": "2025-05-17T15:52:38.504161",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517155245",
+      "team1": "LAL",
+      "team2": "ORL",
+      "team1_players": [
+        "LAL_3"
+      ],
+      "team2_players": [
+        "ORL_1",
+        "ORL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAL",
+      "timestamp": "2025-05-17T15:52:45.874777",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517155253",
+      "team1": "GSW",
+      "team2": "ORL",
+      "team1_players": [
+        "GSW_4"
+      ],
+      "team2_players": [
+        "ORL_1",
+        "ORL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "GSW",
+      "timestamp": "2025-05-17T15:52:53.404580",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517155334",
+      "team1": "CLE",
+      "team2": "DEN",
+      "team1_players": [
+        "CLE_5",
+        "CLE_4",
+        "CLE_1"
+      ],
+      "team2_players": [
+        "DEN_2",
+        "DEN_3"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T15:53:34.776489",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517155422",
+      "team1": "LAC",
+      "team2": "IND",
+      "team1_players": [
+        "LAC_2",
+        "CLE_2",
+        "LAC_3",
+        "LAC_5"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_3"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAC",
+      "timestamp": "2025-05-17T15:54:22.192331",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517155433",
+      "team1": "SAS",
+      "team2": "DAL",
+      "team1_players": [
+        "SAS_1"
+      ],
+      "team2_players": [
+        "CHI_1",
+        "CHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "SAS",
+      "timestamp": "2025-05-17T15:54:33.705096",
       "counter_trade_id": null
     }
   ]

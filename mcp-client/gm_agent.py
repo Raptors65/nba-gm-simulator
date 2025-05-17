@@ -796,7 +796,8 @@ class GMAgentManager:
         
         print("hey??", file=sys.stderr)
         # Process more teams to generate more trades
-        for team_abbr in team_list:
+        # TODO: consider removing this cap
+        for team_abbr in team_list[:1]:
             # Skip user's team
             if team_abbr == self.user_team:
                 continue
@@ -805,7 +806,8 @@ class GMAgentManager:
             agent = self.agents[team_abbr]
             proposals = await agent.consider_initiating_trades()
             
-            for proposal in proposals:
+            # TODO: consider removing this cap
+            for proposal in proposals[:1]:
                 # Process each proposal
                 try:
                     response = await self.process_agent_trade_proposal(team_abbr, proposal)

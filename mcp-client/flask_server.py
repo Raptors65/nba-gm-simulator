@@ -257,9 +257,9 @@ async def simulate_league():
         all_results = []
         
         # Run multiple cycles of agent-to-agent trades to generate more activity
-        for _ in range(3):  # Run 3 cycles each time
-            results = await gm_manager.run_agent_trade_cycle()
-            all_results.extend(results)
+        # for _ in range(3):  # Run 3 cycles each time
+        results = await gm_manager.run_agent_trade_cycle()
+        all_results.extend(results)
         
         # Format results
         trades = []
