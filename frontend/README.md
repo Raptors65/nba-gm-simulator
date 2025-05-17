@@ -33,7 +33,7 @@ npm run dev
 
 ## Backend Connection
 
-The frontend is configured to communicate with a Flask backend server running at `http://127.0.0.1:5000`. The backend should implement the following API endpoint:
+The frontend is configured to communicate with a Flask backend server running at `http://127.0.0.1:5001`. The backend should implement the following API endpoint:
 
 - `POST /api/chat/<team>` - Accepts messages and returns GM responses
 

@@ -908,7 +908,7 @@ def nba_player_current_season_stats(player_id: str, season_type: str = "Regular 
 
 if __name__ == "__main__":
     try:
-        print("Starting MCP server 'nba_mcp_server' on 127.0.0.1:5000")
+        print("Starting MCP server 'nba_mcp_server' on 127.0.0.1:5001")
         # Use this approach to keep the server running
         mcp.run()
     except Exception as e:

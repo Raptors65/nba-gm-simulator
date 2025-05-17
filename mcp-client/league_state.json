@@ -1,0 +1,5911 @@
+{
+  "teams": {
+    "ATL": {
+      "id": "1",
+      "name": "Hawks",
+      "abbreviation": "ATL",
+      "city": "Atlanta",
+      "conference": "East",
+      "division": "Southeast",
+      "players": [
+        {
+          "id": "ATL_1",
+          "name": "Trae Young",
+          "position": "PG",
+          "age": 21,
+          "height": "7'1\"",
+          "weight": 240,
+          "salary": 8930438.73,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 13.7,
+            "rpg": 8.0,
+            "apg": 6.1,
+            "spg": 1.3,
+            "bpg": 2.2,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "ATL_2",
+          "name": "Dejounte Murray",
+          "position": "SG",
+          "age": 25,
+          "height": "7'6\"",
+          "weight": 231,
+          "salary": 11577080.97,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 6.1,
+            "rpg": 7.0,
+            "apg": 4.4,
+            "spg": 0.5,
+            "bpg": 1.0,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.3
+          }
+        },
+        {
+          "id": "ATL_3",
+          "name": "Bogdan Bogdanovi\u0107",
+          "position": "SF",
+          "age": 29,
+          "height": "7'7\"",
+          "weight": 238,
+          "salary": 21774762.86,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 12.8,
+            "rpg": 5.1,
+            "apg": 1.3,
+            "spg": 0.5,
+            "bpg": 1.1,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "ATL_4",
+          "name": "Clint Capela",
+          "position": "PF",
+          "age": 27,
+          "height": "7'2\"",
+          "weight": 255,
+          "salary": 27793836.64,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 20.7,
+            "rpg": 3.9,
+            "apg": 2.8,
+            "spg": 0.7,
+            "bpg": 1.7,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.37
+          }
+        },
+        {
+          "id": "ATL_5",
+          "name": "Jalen Johnson",
+          "position": "C",
+          "age": 32,
+          "height": "6'3\"",
+          "weight": 199,
+          "salary": 13418345.42,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 10.8,
+            "rpg": 3.8,
+            "apg": 3.7,
+            "spg": 1.4,
+            "bpg": 1.6,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.4
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "ATL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "ATL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "ATL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "ATL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "ATL",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "BOS": {
+      "id": "2",
+      "name": "Celtics",
+      "abbreviation": "BOS",
+      "city": "Boston",
+      "conference": "East",
+      "division": "Atlantic",
+      "players": [
+        {
+          "id": "BOS_1",
+          "name": "Jayson Tatum",
+          "position": "PG",
+          "age": 23,
+          "height": "7'8\"",
+          "weight": 194,
+          "salary": 18489293.52,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 22.7,
+            "rpg": 6.3,
+            "apg": 3.5,
+            "spg": 1.8,
+            "bpg": 1.5,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "BOS_2",
+          "name": "Jaylen Brown",
+          "position": "SG",
+          "age": 23,
+          "height": "6'2\"",
+          "weight": 243,
+          "salary": 1790749.45,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 20.9,
+            "rpg": 7.2,
+            "apg": 7.4,
+            "spg": 1.0,
+            "bpg": 0.5,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.4
+          }
+        },
+        {
+          "id": "BOS_3",
+          "name": "Kristaps Porzi\u0146\u0123is",
+          "position": "SF",
+          "age": 28,
+          "height": "6'3\"",
+          "weight": 224,
+          "salary": 17765163.96,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 22.7,
+            "rpg": 7.0,
+            "apg": 1.8,
+            "spg": 1.6,
+            "bpg": 1.7,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "BOS_4",
+          "name": "Jrue Holiday",
+          "position": "PF",
+          "age": 22,
+          "height": "6'2\"",
+          "weight": 241,
+          "salary": 25772772.82,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 10.5,
+            "rpg": 10.9,
+            "apg": 2.7,
+            "spg": 1.3,
+            "bpg": 1.4,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "BOS_5",
+          "name": "Derrick White",
+          "position": "C",
+          "age": 32,
+          "height": "7'10\"",
+          "weight": 257,
+          "salary": 33510733.73,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 6.9,
+            "rpg": 7.1,
+            "apg": 3.0,
+            "spg": 0.7,
+            "bpg": 2.4,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.36
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "BOS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "BOS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "BOS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "BOS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "BOS",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "BKN": {
+      "id": "3",
+      "name": "Nets",
+      "abbreviation": "BKN",
+      "city": "Brooklyn",
+      "conference": "East",
+      "division": "Atlantic",
+      "players": [
+        {
+          "id": "BKN_1",
+          "name": "Mikal Bridges",
+          "position": "PG",
+          "age": 30,
+          "height": "6'7\"",
+          "weight": 172,
+          "salary": 17332057.68,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 9.6,
+            "rpg": 11.6,
+            "apg": 2.2,
+            "spg": 1.9,
+            "bpg": 1.7,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "BKN_2",
+          "name": "Cam Thomas",
+          "position": "SG",
+          "age": 26,
+          "height": "6'4\"",
+          "weight": 243,
+          "salary": 2183063.67,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 7.3,
+            "rpg": 9.9,
+            "apg": 3.1,
+            "spg": 1.0,
+            "bpg": 2.0,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "BKN_3",
+          "name": "Nic Claxton",
+          "position": "SF",
+          "age": 22,
+          "height": "7'11\"",
+          "weight": 188,
+          "salary": 23667314.81,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 19.9,
+            "rpg": 9.0,
+            "apg": 2.9,
+            "spg": 0.8,
+            "bpg": 2.5,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "BKN_4",
+          "name": "Ben Simmons",
+          "position": "PF",
+          "age": 31,
+          "height": "6'4\"",
+          "weight": 170,
+          "salary": 10266489.84,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 23.0,
+            "rpg": 3.0,
+            "apg": 1.8,
+            "spg": 0.5,
+            "bpg": 0.9,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.37
+          }
+        },
+        {
+          "id": "BKN_5",
+          "name": "Dorian Finney-Smith",
+          "position": "C",
+          "age": 34,
+          "height": "7'2\"",
+          "weight": 215,
+          "salary": 14685827.48,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 30.0,
+            "rpg": 5.2,
+            "apg": 7.6,
+            "spg": 1.1,
+            "bpg": 1.1,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.3
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "BKN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "BKN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "BKN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "BKN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "BKN",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "CHA": {
+      "id": "4",
+      "name": "Hornets",
+      "abbreviation": "CHA",
+      "city": "Charlotte",
+      "conference": "East",
+      "division": "Southeast",
+      "players": [
+        {
+          "id": "CHA_1",
+          "name": "LaMelo Ball",
+          "position": "PG",
+          "age": 34,
+          "height": "7'1\"",
+          "weight": 183,
+          "salary": 28253960.53,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 23.1,
+            "rpg": 11.1,
+            "apg": 4.8,
+            "spg": 1.9,
+            "bpg": 0.4,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.4
+          }
+        },
+        {
+          "id": "CHA_2",
+          "name": "Brandon Miller",
+          "position": "SG",
+          "age": 24,
+          "height": "6'8\"",
+          "weight": 256,
+          "salary": 12683605.95,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 22.3,
+            "rpg": 11.6,
+            "apg": 6.1,
+            "spg": 0.8,
+            "bpg": 2.1,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.43
+          }
+        },
+        {
+          "id": "CHA_3",
+          "name": "Miles Bridges",
+          "position": "SF",
+          "age": 35,
+          "height": "7'4\"",
+          "weight": 220,
+          "salary": 20447318.7,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 24.8,
+            "rpg": 4.5,
+            "apg": 1.4,
+            "spg": 0.4,
+            "bpg": 0.4,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "CHA_4",
+          "name": "Mark Williams",
+          "position": "PF",
+          "age": 25,
+          "height": "6'5\"",
+          "weight": 230,
+          "salary": 5038948.88,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 26.8,
+            "rpg": 2.6,
+            "apg": 5.2,
+            "spg": 0.9,
+            "bpg": 0.9,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "CHA_5",
+          "name": "Grant Williams",
+          "position": "C",
+          "age": 30,
+          "height": "7'8\"",
+          "weight": 260,
+          "salary": 13147728.92,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 10.5,
+            "rpg": 5.8,
+            "apg": 4.9,
+            "spg": 0.7,
+            "bpg": 0.7,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.37
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "CHA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "CHA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "CHA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "CHA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "CHA",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "CHI": {
+      "id": "5",
+      "name": "Bulls",
+      "abbreviation": "CHI",
+      "city": "Chicago",
+      "conference": "East",
+      "division": "Central",
+      "players": [
+        {
+          "id": "CHI_1",
+          "name": "Zach LaVine",
+          "position": "PG",
+          "age": 35,
+          "height": "7'8\"",
+          "weight": 198,
+          "salary": 8447634.11,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 15.3,
+            "rpg": 3.7,
+            "apg": 5.7,
+            "spg": 1.0,
+            "bpg": 0.9,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "CHI_2",
+          "name": "DeMar DeRozan",
+          "position": "SG",
+          "age": 26,
+          "height": "7'7\"",
+          "weight": 203,
+          "salary": 19250986.67,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 29.3,
+            "rpg": 7.0,
+            "apg": 1.0,
+            "spg": 1.1,
+            "bpg": 1.7,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.4
+          }
+        },
+        {
+          "id": "CHI_3",
+          "name": "Nikola Vu\u010devi\u0107",
+          "position": "SF",
+          "age": 30,
+          "height": "7'6\"",
+          "weight": 237,
+          "salary": 21834399.6,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 20.5,
+            "rpg": 5.0,
+            "apg": 6.7,
+            "spg": 1.7,
+            "bpg": 2.2,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.34
+          }
+        },
+        {
+          "id": "CHI_4",
+          "name": "Coby White",
+          "position": "PF",
+          "age": 24,
+          "height": "6'8\"",
+          "weight": 246,
+          "salary": 31655262.92,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 16.8,
+            "rpg": 6.7,
+            "apg": 2.8,
+            "spg": 1.9,
+            "bpg": 1.0,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.42
+          }
+        },
+        {
+          "id": "CHI_5",
+          "name": "Alex Caruso",
+          "position": "C",
+          "age": 32,
+          "height": "6'0\"",
+          "weight": 193,
+          "salary": 30536063.76,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 28.8,
+            "rpg": 2.6,
+            "apg": 4.9,
+            "spg": 1.0,
+            "bpg": 1.2,
+            "fg_pct": 0.45,
+            "fg3_pct": 0.31
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "CHI",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "CHI",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "CHI",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "CHI",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "CHI",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "CLE": {
+      "id": "6",
+      "name": "Cavaliers",
+      "abbreviation": "CLE",
+      "city": "Cleveland",
+      "conference": "East",
+      "division": "Central",
+      "players": [
+        {
+          "id": "CLE_1",
+          "name": "Donovan Mitchell",
+          "position": "PG",
+          "age": 27,
+          "height": "6'9\"",
+          "weight": 246,
+          "salary": 36006244.92,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 25.9,
+            "rpg": 10.3,
+            "apg": 5.2,
+            "spg": 1.6,
+            "bpg": 1.6,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "CLE_2",
+          "name": "Darius Garland",
+          "position": "SG",
+          "age": 32,
+          "height": "7'3\"",
+          "weight": 185,
+          "salary": 27639908.09,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 13.6,
+            "rpg": 3.5,
+            "apg": 4.3,
+            "spg": 1.3,
+            "bpg": 1.2,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.34
+          }
+        },
+        {
+          "id": "CLE_3",
+          "name": "Evan Mobley",
+          "position": "SF",
+          "age": 28,
+          "height": "7'11\"",
+          "weight": 211,
+          "salary": 24564615.9,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 14.4,
+            "rpg": 10.0,
+            "apg": 2.2,
+            "spg": 1.8,
+            "bpg": 1.9,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "CLE_4",
+          "name": "Jarrett Allen",
+          "position": "PF",
+          "age": 27,
+          "height": "7'2\"",
+          "weight": 189,
+          "salary": 17580610.8,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 15.4,
+            "rpg": 4.3,
+            "apg": 2.3,
+            "spg": 1.1,
+            "bpg": 2.3,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "CLE_5",
+          "name": "Max Strus",
+          "position": "C",
+          "age": 32,
+          "height": "7'1\"",
+          "weight": 179,
+          "salary": 2303247.3,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 9.9,
+            "rpg": 5.4,
+            "apg": 1.1,
+            "spg": 1.7,
+            "bpg": 0.4,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.31
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "CLE",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "CLE",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "CLE",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "CLE",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "CLE",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "DAL": {
+      "id": "7",
+      "name": "Mavericks",
+      "abbreviation": "DAL",
+      "city": "Dallas",
+      "conference": "West",
+      "division": "Southwest",
+      "players": [
+        {
+          "id": "DAL_1",
+          "name": "Luka Don\u010di\u0107",
+          "position": "PG",
+          "age": 20,
+          "height": "7'10\"",
+          "weight": 252,
+          "salary": 34776649.21,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 17.9,
+            "rpg": 8.1,
+            "apg": 3.4,
+            "spg": 0.9,
+            "bpg": 2.0,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "DAL_2",
+          "name": "Kyrie Irving",
+          "position": "SG",
+          "age": 25,
+          "height": "6'10\"",
+          "weight": 214,
+          "salary": 28950677.22,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 23.6,
+            "rpg": 11.8,
+            "apg": 6.4,
+            "spg": 0.4,
+            "bpg": 0.8,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.3
+          }
+        },
+        {
+          "id": "DAL_3",
+          "name": "Derrick Jones Jr.",
+          "position": "SF",
+          "age": 22,
+          "height": "7'5\"",
+          "weight": 218,
+          "salary": 18143197.52,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 11.6,
+            "rpg": 9.2,
+            "apg": 2.7,
+            "spg": 0.7,
+            "bpg": 2.0,
+            "fg_pct": 0.55,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "DAL_4",
+          "name": "Tim Hardaway Jr.",
+          "position": "PF",
+          "age": 23,
+          "height": "7'4\"",
+          "weight": 251,
+          "salary": 5988806.85,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 20.3,
+            "rpg": 5.5,
+            "apg": 2.5,
+            "spg": 1.4,
+            "bpg": 1.4,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "DAL_5",
+          "name": "Dereck Lively II",
+          "position": "C",
+          "age": 24,
+          "height": "7'8\"",
+          "weight": 214,
+          "salary": 1147009.42,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 26.8,
+            "rpg": 7.7,
+            "apg": 1.4,
+            "spg": 1.9,
+            "bpg": 1.4,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.33
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "DAL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "DAL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "DAL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "DAL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "DAL",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "DEN": {
+      "id": "8",
+      "name": "Nuggets",
+      "abbreviation": "DEN",
+      "city": "Denver",
+      "conference": "West",
+      "division": "Northwest",
+      "players": [
+        {
+          "id": "DEN_1",
+          "name": "Nikola Joki\u0107",
+          "position": "PG",
+          "age": 35,
+          "height": "7'5\"",
+          "weight": 260,
+          "salary": 36856180.89,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 28.0,
+            "rpg": 10.2,
+            "apg": 4.3,
+            "spg": 1.2,
+            "bpg": 2.3,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "DEN_2",
+          "name": "Jamal Murray",
+          "position": "SG",
+          "age": 21,
+          "height": "6'10\"",
+          "weight": 220,
+          "salary": 15688495.31,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 23.6,
+            "rpg": 3.6,
+            "apg": 3.6,
+            "spg": 1.7,
+            "bpg": 1.8,
+            "fg_pct": 0.45,
+            "fg3_pct": 0.4
+          }
+        },
+        {
+          "id": "DEN_3",
+          "name": "Michael Porter Jr.",
+          "position": "SF",
+          "age": 35,
+          "height": "6'2\"",
+          "weight": 240,
+          "salary": 26906665.77,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 24.6,
+            "rpg": 3.6,
+            "apg": 1.3,
+            "spg": 0.3,
+            "bpg": 0.3,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "DEN_4",
+          "name": "Aaron Gordon",
+          "position": "PF",
+          "age": 35,
+          "height": "6'6\"",
+          "weight": 180,
+          "salary": 33746221.01,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 21.8,
+            "rpg": 7.4,
+            "apg": 7.0,
+            "spg": 1.0,
+            "bpg": 2.0,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "DEN_5",
+          "name": "Kentavious Caldwell-Pope",
+          "position": "C",
+          "age": 31,
+          "height": "6'3\"",
+          "weight": 228,
+          "salary": 2079851.63,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 6.1,
+            "rpg": 3.6,
+            "apg": 5.8,
+            "spg": 0.9,
+            "bpg": 0.4,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.43
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "DEN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "DEN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "DEN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "DEN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "DEN",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "DET": {
+      "id": "9",
+      "name": "Pistons",
+      "abbreviation": "DET",
+      "city": "Detroit",
+      "conference": "East",
+      "division": "Central",
+      "players": [
+        {
+          "id": "DET_1",
+          "name": "Cade Cunningham",
+          "position": "PG",
+          "age": 34,
+          "height": "6'6\"",
+          "weight": 199,
+          "salary": 20920358.08,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 24.8,
+            "rpg": 6.4,
+            "apg": 4.0,
+            "spg": 0.7,
+            "bpg": 2.1,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "DET_2",
+          "name": "Jaden Ivey",
+          "position": "SG",
+          "age": 33,
+          "height": "7'7\"",
+          "weight": 233,
+          "salary": 24877040.26,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 5.7,
+            "rpg": 2.3,
+            "apg": 6.0,
+            "spg": 1.1,
+            "bpg": 0.2,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "DET_3",
+          "name": "Jalen Duren",
+          "position": "SF",
+          "age": 26,
+          "height": "6'2\"",
+          "weight": 185,
+          "salary": 1330261.74,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 9.2,
+            "rpg": 5.8,
+            "apg": 7.3,
+            "spg": 1.6,
+            "bpg": 1.0,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "DET_4",
+          "name": "Ausar Thompson",
+          "position": "PF",
+          "age": 29,
+          "height": "6'11\"",
+          "weight": 226,
+          "salary": 9568010.4,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 9.4,
+            "rpg": 7.0,
+            "apg": 3.9,
+            "spg": 1.5,
+            "bpg": 0.9,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.43
+          }
+        },
+        {
+          "id": "DET_5",
+          "name": "Bojan Bogdanovi\u0107",
+          "position": "C",
+          "age": 22,
+          "height": "6'0\"",
+          "weight": 207,
+          "salary": 23366569.74,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 27.7,
+            "rpg": 3.0,
+            "apg": 7.3,
+            "spg": 1.0,
+            "bpg": 1.0,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.4
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "DET",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "DET",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "DET",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "DET",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "DET",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "GSW": {
+      "id": "10",
+      "name": "Warriors",
+      "abbreviation": "GSW",
+      "city": "Golden State",
+      "conference": "West",
+      "division": "Pacific",
+      "players": [
+        {
+          "id": "GSW_1",
+          "name": "Stephen Curry",
+          "position": "PG",
+          "age": 27,
+          "height": "7'0\"",
+          "weight": 178,
+          "salary": 29462132.57,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 19.8,
+            "rpg": 8.5,
+            "apg": 1.8,
+            "spg": 0.6,
+            "bpg": 2.4,
+            "fg_pct": 0.45,
+            "fg3_pct": 0.36
+          }
+        },
+        {
+          "id": "GSW_2",
+          "name": "Klay Thompson",
+          "position": "SG",
+          "age": 27,
+          "height": "7'1\"",
+          "weight": 200,
+          "salary": 36738163.94,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 15.2,
+            "rpg": 11.6,
+            "apg": 6.2,
+            "spg": 1.8,
+            "bpg": 2.3,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "GSW_3",
+          "name": "Draymond Green",
+          "position": "SF",
+          "age": 26,
+          "height": "6'3\"",
+          "weight": 253,
+          "salary": 9890672.92,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 18.9,
+            "rpg": 2.1,
+            "apg": 4.7,
+            "spg": 2.0,
+            "bpg": 2.2,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "GSW_4",
+          "name": "Andrew Wiggins",
+          "position": "PF",
+          "age": 30,
+          "height": "6'10\"",
+          "weight": 230,
+          "salary": 9903599.71,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 11.7,
+            "rpg": 10.1,
+            "apg": 6.2,
+            "spg": 0.6,
+            "bpg": 1.1,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.36
+          }
+        },
+        {
+          "id": "GSW_5",
+          "name": "Jonathan Kuminga",
+          "position": "C",
+          "age": 32,
+          "height": "6'10\"",
+          "weight": 194,
+          "salary": 12659629.57,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 19.2,
+            "rpg": 11.8,
+            "apg": 5.4,
+            "spg": 1.3,
+            "bpg": 2.3,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.42
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "GSW",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "GSW",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "GSW",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "GSW",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "GSW",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "HOU": {
+      "id": "11",
+      "name": "Rockets",
+      "abbreviation": "HOU",
+      "city": "Houston",
+      "conference": "West",
+      "division": "Southwest",
+      "players": [
+        {
+          "id": "HOU_1",
+          "name": "Jalen Green",
+          "position": "PG",
+          "age": 20,
+          "height": "6'7\"",
+          "weight": 248,
+          "salary": 5152725.79,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 19.1,
+            "rpg": 5.5,
+            "apg": 1.7,
+            "spg": 1.4,
+            "bpg": 1.6,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "HOU_2",
+          "name": "Fred VanVleet",
+          "position": "SG",
+          "age": 31,
+          "height": "7'4\"",
+          "weight": 177,
+          "salary": 3586926.74,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 17.8,
+            "rpg": 8.1,
+            "apg": 4.4,
+            "spg": 1.7,
+            "bpg": 2.4,
+            "fg_pct": 0.45,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "HOU_3",
+          "name": "Dillon Brooks",
+          "position": "SF",
+          "age": 32,
+          "height": "6'9\"",
+          "weight": 232,
+          "salary": 19810185.95,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 11.2,
+            "rpg": 3.3,
+            "apg": 3.7,
+            "spg": 1.7,
+            "bpg": 2.1,
+            "fg_pct": 0.4,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "HOU_4",
+          "name": "Alperen \u015eeng\u00fcn",
+          "position": "PF",
+          "age": 26,
+          "height": "6'2\"",
+          "weight": 217,
+          "salary": 12614168.24,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 12.1,
+            "rpg": 9.4,
+            "apg": 2.2,
+            "spg": 1.4,
+            "bpg": 2.3,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.37
+          }
+        },
+        {
+          "id": "HOU_5",
+          "name": "Jabari Smith Jr.",
+          "position": "C",
+          "age": 21,
+          "height": "6'6\"",
+          "weight": 251,
+          "salary": 22424499.54,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 15.2,
+            "rpg": 11.3,
+            "apg": 3.6,
+            "spg": 0.3,
+            "bpg": 1.0,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.4
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "HOU",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "HOU",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "HOU",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "HOU",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "HOU",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "IND": {
+      "id": "12",
+      "name": "Pacers",
+      "abbreviation": "IND",
+      "city": "Indiana",
+      "conference": "East",
+      "division": "Central",
+      "players": [
+        {
+          "id": "IND_1",
+          "name": "Tyrese Haliburton",
+          "position": "PG",
+          "age": 23,
+          "height": "7'5\"",
+          "weight": 209,
+          "salary": 39292509.03,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 24.9,
+            "rpg": 9.7,
+            "apg": 4.4,
+            "spg": 1.9,
+            "bpg": 2.1,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "IND_2",
+          "name": "Myles Turner",
+          "position": "SG",
+          "age": 30,
+          "height": "6'9\"",
+          "weight": 198,
+          "salary": 34543472.66,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 15.5,
+            "rpg": 9.8,
+            "apg": 1.9,
+            "spg": 0.5,
+            "bpg": 0.5,
+            "fg_pct": 0.45,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "IND_3",
+          "name": "Bennedict Mathurin",
+          "position": "SF",
+          "age": 20,
+          "height": "7'1\"",
+          "weight": 253,
+          "salary": 39318946.26,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 28.3,
+            "rpg": 9.5,
+            "apg": 2.8,
+            "spg": 0.4,
+            "bpg": 0.2,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "IND_4",
+          "name": "Pascal Siakam",
+          "position": "PF",
+          "age": 35,
+          "height": "7'4\"",
+          "weight": 200,
+          "salary": 37414346.18,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 16.3,
+            "rpg": 7.1,
+            "apg": 5.0,
+            "spg": 1.3,
+            "bpg": 1.1,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.36
+          }
+        },
+        {
+          "id": "IND_5",
+          "name": "Obi Toppin",
+          "position": "C",
+          "age": 23,
+          "height": "7'8\"",
+          "weight": 183,
+          "salary": 32899088.64,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 22.1,
+            "rpg": 10.7,
+            "apg": 1.5,
+            "spg": 0.9,
+            "bpg": 2.3,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.44
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "IND",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "IND",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "IND",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "IND",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "IND",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "LAC": {
+      "id": "13",
+      "name": "Clippers",
+      "abbreviation": "LAC",
+      "city": "Los Angeles",
+      "conference": "West",
+      "division": "Pacific",
+      "players": [
+        {
+          "id": "LAC_1",
+          "name": "Kawhi Leonard",
+          "position": "PG",
+          "age": 30,
+          "height": "6'7\"",
+          "weight": 225,
+          "salary": 23672425.78,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 27.2,
+            "rpg": 2.1,
+            "apg": 4.4,
+            "spg": 1.7,
+            "bpg": 0.9,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "LAC_2",
+          "name": "Paul George",
+          "position": "SG",
+          "age": 33,
+          "height": "7'10\"",
+          "weight": 257,
+          "salary": 13048481.49,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 5.3,
+            "rpg": 10.0,
+            "apg": 3.5,
+            "spg": 0.6,
+            "bpg": 1.5,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.36
+          }
+        },
+        {
+          "id": "LAC_3",
+          "name": "James Harden",
+          "position": "SF",
+          "age": 26,
+          "height": "7'7\"",
+          "weight": 171,
+          "salary": 11141631.42,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 15.6,
+            "rpg": 4.4,
+            "apg": 3.3,
+            "spg": 0.7,
+            "bpg": 2.2,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "LAC_4",
+          "name": "Russell Westbrook",
+          "position": "PF",
+          "age": 24,
+          "height": "7'9\"",
+          "weight": 223,
+          "salary": 8188462.55,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 29.1,
+            "rpg": 12.0,
+            "apg": 7.7,
+            "spg": 0.4,
+            "bpg": 0.4,
+            "fg_pct": 0.46,
+            "fg3_pct": 0.4
+          }
+        },
+        {
+          "id": "LAC_5",
+          "name": "Ivica Zubac",
+          "position": "C",
+          "age": 31,
+          "height": "6'4\"",
+          "weight": 184,
+          "salary": 38827868.07,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 25.6,
+            "rpg": 2.7,
+            "apg": 4.8,
+            "spg": 2.0,
+            "bpg": 0.3,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.37
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "LAC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "LAC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "LAC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "LAC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "LAC",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "LAL": {
+      "id": "14",
+      "name": "Lakers",
+      "abbreviation": "LAL",
+      "city": "Los Angeles",
+      "conference": "West",
+      "division": "Pacific",
+      "players": [
+        {
+          "id": "LAL_1",
+          "name": "LeBron James",
+          "position": "PG",
+          "age": 23,
+          "height": "6'11\"",
+          "weight": 241,
+          "salary": 32891477.86,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 22.4,
+            "rpg": 2.3,
+            "apg": 6.3,
+            "spg": 2.0,
+            "bpg": 2.2,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.34
+          }
+        },
+        {
+          "id": "LAL_2",
+          "name": "Anthony Davis",
+          "position": "SG",
+          "age": 24,
+          "height": "6'5\"",
+          "weight": 231,
+          "salary": 35943409.66,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 23.9,
+            "rpg": 2.4,
+            "apg": 1.2,
+            "spg": 1.0,
+            "bpg": 1.3,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "LAL_3",
+          "name": "D'Angelo Russell",
+          "position": "SF",
+          "age": 30,
+          "height": "6'8\"",
+          "weight": 234,
+          "salary": 11839487.94,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 13.0,
+            "rpg": 10.5,
+            "apg": 1.4,
+            "spg": 1.9,
+            "bpg": 2.0,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.45
+          }
+        },
+        {
+          "id": "LAL_4",
+          "name": "Austin Reaves",
+          "position": "PF",
+          "age": 21,
+          "height": "6'7\"",
+          "weight": 175,
+          "salary": 33568595.67,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 16.6,
+            "rpg": 10.0,
+            "apg": 2.2,
+            "spg": 0.9,
+            "bpg": 1.3,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "LAL_5",
+          "name": "Rui Hachimura",
+          "position": "C",
+          "age": 31,
+          "height": "6'7\"",
+          "weight": 260,
+          "salary": 35876496.41,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 14.4,
+            "rpg": 4.6,
+            "apg": 5.5,
+            "spg": 1.2,
+            "bpg": 0.9,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.35
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "LAL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "LAL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "LAL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "LAL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "LAL",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "MEM": {
+      "id": "15",
+      "name": "Grizzlies",
+      "abbreviation": "MEM",
+      "city": "Memphis",
+      "conference": "West",
+      "division": "Southwest",
+      "players": [
+        {
+          "id": "MEM_1",
+          "name": "Ja Morant",
+          "position": "PG",
+          "age": 21,
+          "height": "6'4\"",
+          "weight": 217,
+          "salary": 33528980.98,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 23.4,
+            "rpg": 5.2,
+            "apg": 6.0,
+            "spg": 0.5,
+            "bpg": 2.1,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "MEM_2",
+          "name": "Desmond Bane",
+          "position": "SG",
+          "age": 20,
+          "height": "7'2\"",
+          "weight": 193,
+          "salary": 9030751.73,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 20.5,
+            "rpg": 10.0,
+            "apg": 7.7,
+            "spg": 1.4,
+            "bpg": 0.7,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.3
+          }
+        },
+        {
+          "id": "MEM_3",
+          "name": "Jaren Jackson Jr.",
+          "position": "SF",
+          "age": 35,
+          "height": "7'4\"",
+          "weight": 240,
+          "salary": 35428231.06,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 26.4,
+            "rpg": 9.9,
+            "apg": 5.8,
+            "spg": 0.4,
+            "bpg": 2.0,
+            "fg_pct": 0.46,
+            "fg3_pct": 0.3
+          }
+        },
+        {
+          "id": "MEM_4",
+          "name": "Marcus Smart",
+          "position": "PF",
+          "age": 22,
+          "height": "6'3\"",
+          "weight": 191,
+          "salary": 37299853.12,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 10.0,
+            "rpg": 3.3,
+            "apg": 1.3,
+            "spg": 0.4,
+            "bpg": 2.2,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.45
+          }
+        },
+        {
+          "id": "MEM_5",
+          "name": "Santi Aldama",
+          "position": "C",
+          "age": 25,
+          "height": "7'10\"",
+          "weight": 229,
+          "salary": 34934143.53,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 21.9,
+            "rpg": 8.8,
+            "apg": 4.6,
+            "spg": 0.6,
+            "bpg": 2.2,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.39
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "MEM",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "MEM",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "MEM",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "MEM",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "MEM",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "MIA": {
+      "id": "16",
+      "name": "Heat",
+      "abbreviation": "MIA",
+      "city": "Miami",
+      "conference": "East",
+      "division": "Southeast",
+      "players": [
+        {
+          "id": "MIA_1",
+          "name": "Jimmy Butler",
+          "position": "PG",
+          "age": 29,
+          "height": "7'1\"",
+          "weight": 174,
+          "salary": 33055400.33,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 23.4,
+            "rpg": 10.9,
+            "apg": 7.2,
+            "spg": 0.5,
+            "bpg": 0.3,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.4
+          }
+        },
+        {
+          "id": "MIA_2",
+          "name": "Bam Adebayo",
+          "position": "SG",
+          "age": 26,
+          "height": "7'6\"",
+          "weight": 232,
+          "salary": 29510901.03,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 18.1,
+            "rpg": 4.4,
+            "apg": 1.3,
+            "spg": 2.0,
+            "bpg": 0.8,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.43
+          }
+        },
+        {
+          "id": "MIA_3",
+          "name": "Tyler Herro",
+          "position": "SF",
+          "age": 22,
+          "height": "7'5\"",
+          "weight": 256,
+          "salary": 19423655.11,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 9.8,
+            "rpg": 3.4,
+            "apg": 4.7,
+            "spg": 0.9,
+            "bpg": 1.9,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "MIA_4",
+          "name": "Terry Rozier",
+          "position": "PF",
+          "age": 29,
+          "height": "6'2\"",
+          "weight": 246,
+          "salary": 34381680.38,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 11.0,
+            "rpg": 7.1,
+            "apg": 6.7,
+            "spg": 0.6,
+            "bpg": 0.5,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "MIA_5",
+          "name": "Kevin Love",
+          "position": "C",
+          "age": 27,
+          "height": "7'1\"",
+          "weight": 236,
+          "salary": 1916215.22,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 29.2,
+            "rpg": 8.3,
+            "apg": 5.9,
+            "spg": 1.8,
+            "bpg": 1.4,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.37
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "MIA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "MIA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "MIA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "MIA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "MIA",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "MIL": {
+      "id": "17",
+      "name": "Bucks",
+      "abbreviation": "MIL",
+      "city": "Milwaukee",
+      "conference": "East",
+      "division": "Central",
+      "players": [
+        {
+          "id": "MIL_1",
+          "name": "Giannis Antetokounmpo",
+          "position": "PG",
+          "age": 26,
+          "height": "7'0\"",
+          "weight": 251,
+          "salary": 12407566.63,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 25.5,
+            "rpg": 8.8,
+            "apg": 6.1,
+            "spg": 0.5,
+            "bpg": 1.4,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "MIL_2",
+          "name": "Damian Lillard",
+          "position": "SG",
+          "age": 32,
+          "height": "7'0\"",
+          "weight": 196,
+          "salary": 28199951.53,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 23.9,
+            "rpg": 10.0,
+            "apg": 6.2,
+            "spg": 0.4,
+            "bpg": 1.6,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "MIL_3",
+          "name": "Khris Middleton",
+          "position": "SF",
+          "age": 27,
+          "height": "6'2\"",
+          "weight": 231,
+          "salary": 9103005.12,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 19.8,
+            "rpg": 4.1,
+            "apg": 4.1,
+            "spg": 1.2,
+            "bpg": 1.8,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "MIL_4",
+          "name": "Brook Lopez",
+          "position": "PF",
+          "age": 32,
+          "height": "7'0\"",
+          "weight": 209,
+          "salary": 35021388.92,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 29.8,
+            "rpg": 10.4,
+            "apg": 6.3,
+            "spg": 1.2,
+            "bpg": 1.2,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "MIL_5",
+          "name": "Bobby Portis",
+          "position": "C",
+          "age": 31,
+          "height": "6'2\"",
+          "weight": 184,
+          "salary": 38208827.73,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 16.9,
+            "rpg": 8.3,
+            "apg": 6.6,
+            "spg": 0.9,
+            "bpg": 1.5,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.38
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "MIL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "MIL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "MIL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "MIL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "MIL",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "MIN": {
+      "id": "18",
+      "name": "Timberwolves",
+      "abbreviation": "MIN",
+      "city": "Minnesota",
+      "conference": "West",
+      "division": "Northwest",
+      "players": [
+        {
+          "id": "MIN_1",
+          "name": "Anthony Edwards",
+          "position": "PG",
+          "age": 24,
+          "height": "7'3\"",
+          "weight": 189,
+          "salary": 1152621.59,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 10.4,
+            "rpg": 6.8,
+            "apg": 1.1,
+            "spg": 1.3,
+            "bpg": 0.4,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.37
+          }
+        },
+        {
+          "id": "MIN_2",
+          "name": "Karl-Anthony Towns",
+          "position": "SG",
+          "age": 24,
+          "height": "6'3\"",
+          "weight": 194,
+          "salary": 3033389.82,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 6.4,
+            "rpg": 3.0,
+            "apg": 5.3,
+            "spg": 1.8,
+            "bpg": 2.5,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "MIN_3",
+          "name": "Rudy Gobert",
+          "position": "SF",
+          "age": 24,
+          "height": "7'9\"",
+          "weight": 256,
+          "salary": 32026270.17,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 22.0,
+            "rpg": 3.9,
+            "apg": 4.4,
+            "spg": 1.4,
+            "bpg": 0.5,
+            "fg_pct": 0.46,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "MIN_4",
+          "name": "Jaden McDaniels",
+          "position": "PF",
+          "age": 32,
+          "height": "7'7\"",
+          "weight": 175,
+          "salary": 28759306.67,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 30.0,
+            "rpg": 11.5,
+            "apg": 6.5,
+            "spg": 1.2,
+            "bpg": 0.6,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "MIN_5",
+          "name": "Mike Conley",
+          "position": "C",
+          "age": 34,
+          "height": "6'7\"",
+          "weight": 196,
+          "salary": 16295303.93,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 12.6,
+            "rpg": 8.8,
+            "apg": 1.1,
+            "spg": 2.0,
+            "bpg": 0.8,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.37
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "MIN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "MIN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "MIN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "MIN",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "MIN",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "NOP": {
+      "id": "19",
+      "name": "Pelicans",
+      "abbreviation": "NOP",
+      "city": "New Orleans",
+      "conference": "West",
+      "division": "Southwest",
+      "players": [
+        {
+          "id": "NOP_1",
+          "name": "Zion Williamson",
+          "position": "PG",
+          "age": 27,
+          "height": "7'2\"",
+          "weight": 246,
+          "salary": 27230136.26,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 15.5,
+            "rpg": 6.9,
+            "apg": 4.1,
+            "spg": 1.6,
+            "bpg": 2.5,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "NOP_2",
+          "name": "Brandon Ingram",
+          "position": "SG",
+          "age": 32,
+          "height": "6'1\"",
+          "weight": 213,
+          "salary": 12168824.84,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 23.6,
+            "rpg": 11.9,
+            "apg": 7.1,
+            "spg": 0.4,
+            "bpg": 1.6,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.44
+          }
+        },
+        {
+          "id": "NOP_3",
+          "name": "CJ McCollum",
+          "position": "SF",
+          "age": 29,
+          "height": "6'8\"",
+          "weight": 184,
+          "salary": 12575716.87,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 23.1,
+            "rpg": 3.3,
+            "apg": 1.5,
+            "spg": 0.6,
+            "bpg": 0.9,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.44
+          }
+        },
+        {
+          "id": "NOP_4",
+          "name": "Herbert Jones",
+          "position": "PF",
+          "age": 33,
+          "height": "6'3\"",
+          "weight": 256,
+          "salary": 11075040.69,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 21.2,
+            "rpg": 5.0,
+            "apg": 6.1,
+            "spg": 0.5,
+            "bpg": 2.3,
+            "fg_pct": 0.55,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "NOP_5",
+          "name": "Jonas Valan\u010di\u016bnas",
+          "position": "C",
+          "age": 29,
+          "height": "7'7\"",
+          "weight": 230,
+          "salary": 15648452.24,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 9.7,
+            "rpg": 7.4,
+            "apg": 2.9,
+            "spg": 1.6,
+            "bpg": 1.9,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.44
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "NOP",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "NOP",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "NOP",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "NOP",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "NOP",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "NYK": {
+      "id": "20",
+      "name": "Knicks",
+      "abbreviation": "NYK",
+      "city": "New York",
+      "conference": "East",
+      "division": "Atlantic",
+      "players": [
+        {
+          "id": "NYK_1",
+          "name": "Jalen Brunson",
+          "position": "PG",
+          "age": 30,
+          "height": "7'4\"",
+          "weight": 174,
+          "salary": 31779149.58,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 29.3,
+            "rpg": 9.4,
+            "apg": 2.1,
+            "spg": 2.0,
+            "bpg": 1.3,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.37
+          }
+        },
+        {
+          "id": "NYK_2",
+          "name": "Julius Randle",
+          "position": "SG",
+          "age": 28,
+          "height": "6'6\"",
+          "weight": 224,
+          "salary": 26426638.63,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 9.7,
+            "rpg": 9.0,
+            "apg": 7.3,
+            "spg": 0.8,
+            "bpg": 2.0,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "NYK_3",
+          "name": "Josh Hart",
+          "position": "SF",
+          "age": 24,
+          "height": "7'5\"",
+          "weight": 227,
+          "salary": 9676972.8,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 18.4,
+            "rpg": 4.4,
+            "apg": 4.5,
+            "spg": 1.9,
+            "bpg": 1.6,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.44
+          }
+        },
+        {
+          "id": "NYK_4",
+          "name": "Mitchell Robinson",
+          "position": "PF",
+          "age": 34,
+          "height": "6'1\"",
+          "weight": 217,
+          "salary": 15990510.36,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 11.8,
+            "rpg": 4.2,
+            "apg": 6.6,
+            "spg": 1.2,
+            "bpg": 0.9,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "NYK_5",
+          "name": "Donte DiVincenzo",
+          "position": "C",
+          "age": 34,
+          "height": "7'5\"",
+          "weight": 230,
+          "salary": 11467206.3,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 21.3,
+            "rpg": 4.5,
+            "apg": 1.4,
+            "spg": 0.5,
+            "bpg": 0.9,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.42
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "NYK",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "NYK",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "NYK",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "NYK",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "NYK",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "OKC": {
+      "id": "21",
+      "name": "Thunder",
+      "abbreviation": "OKC",
+      "city": "Oklahoma City",
+      "conference": "West",
+      "division": "Northwest",
+      "players": [
+        {
+          "id": "OKC_1",
+          "name": "Shai Gilgeous-Alexander",
+          "position": "PG",
+          "age": 23,
+          "height": "7'11\"",
+          "weight": 256,
+          "salary": 26842846.44,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 21.1,
+            "rpg": 9.2,
+            "apg": 5.7,
+            "spg": 1.0,
+            "bpg": 2.1,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.36
+          }
+        },
+        {
+          "id": "OKC_2",
+          "name": "Chet Holmgren",
+          "position": "SG",
+          "age": 30,
+          "height": "6'10\"",
+          "weight": 212,
+          "salary": 13149251.89,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 13.0,
+            "rpg": 4.4,
+            "apg": 6.3,
+            "spg": 1.8,
+            "bpg": 1.5,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "OKC_3",
+          "name": "Jalen Williams",
+          "position": "SF",
+          "age": 25,
+          "height": "6'9\"",
+          "weight": 223,
+          "salary": 10714084.22,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 18.6,
+            "rpg": 5.2,
+            "apg": 1.6,
+            "spg": 0.4,
+            "bpg": 0.4,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.42
+          }
+        },
+        {
+          "id": "OKC_4",
+          "name": "Josh Giddey",
+          "position": "PF",
+          "age": 35,
+          "height": "6'0\"",
+          "weight": 234,
+          "salary": 3886328.55,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 9.7,
+            "rpg": 11.5,
+            "apg": 7.2,
+            "spg": 2.0,
+            "bpg": 2.3,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "OKC_5",
+          "name": "Lu Dort",
+          "position": "C",
+          "age": 22,
+          "height": "6'6\"",
+          "weight": 225,
+          "salary": 35604094.89,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 24.7,
+            "rpg": 2.8,
+            "apg": 4.4,
+            "spg": 1.1,
+            "bpg": 1.2,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.36
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "OKC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "OKC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "OKC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "OKC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "OKC",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "ORL": {
+      "id": "22",
+      "name": "Magic",
+      "abbreviation": "ORL",
+      "city": "Orlando",
+      "conference": "East",
+      "division": "Southeast",
+      "players": [
+        {
+          "id": "ORL_1",
+          "name": "Paolo Banchero",
+          "position": "PG",
+          "age": 29,
+          "height": "6'3\"",
+          "weight": 222,
+          "salary": 2219443.67,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 7.0,
+            "rpg": 6.6,
+            "apg": 4.6,
+            "spg": 1.2,
+            "bpg": 1.9,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.37
+          }
+        },
+        {
+          "id": "ORL_2",
+          "name": "Franz Wagner",
+          "position": "SG",
+          "age": 23,
+          "height": "6'2\"",
+          "weight": 232,
+          "salary": 7241085.65,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 19.1,
+            "rpg": 10.9,
+            "apg": 3.9,
+            "spg": 2.0,
+            "bpg": 1.0,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "ORL_3",
+          "name": "Jalen Suggs",
+          "position": "SF",
+          "age": 29,
+          "height": "7'11\"",
+          "weight": 200,
+          "salary": 11258479.92,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 13.7,
+            "rpg": 3.0,
+            "apg": 6.8,
+            "spg": 1.2,
+            "bpg": 0.6,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.42
+          }
+        },
+        {
+          "id": "ORL_4",
+          "name": "Wendell Carter Jr.",
+          "position": "PF",
+          "age": 30,
+          "height": "6'8\"",
+          "weight": 174,
+          "salary": 17019375.27,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 6.8,
+            "rpg": 4.6,
+            "apg": 2.8,
+            "spg": 1.8,
+            "bpg": 2.2,
+            "fg_pct": 0.45,
+            "fg3_pct": 0.36
+          }
+        },
+        {
+          "id": "ORL_5",
+          "name": "Markelle Fultz",
+          "position": "C",
+          "age": 30,
+          "height": "6'5\"",
+          "weight": 235,
+          "salary": 39672024.21,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 22.8,
+            "rpg": 9.9,
+            "apg": 3.2,
+            "spg": 1.1,
+            "bpg": 0.8,
+            "fg_pct": 0.45,
+            "fg3_pct": 0.35
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "ORL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "ORL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "ORL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "ORL",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "ORL",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "PHI": {
+      "id": "23",
+      "name": "76ers",
+      "abbreviation": "PHI",
+      "city": "Philadelphia",
+      "conference": "East",
+      "division": "Atlantic",
+      "players": [
+        {
+          "id": "PHI_1",
+          "name": "Joel Embiid",
+          "position": "PG",
+          "age": 24,
+          "height": "6'11\"",
+          "weight": 231,
+          "salary": 30840334.95,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 9.0,
+            "rpg": 6.2,
+            "apg": 4.2,
+            "spg": 1.8,
+            "bpg": 2.3,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.34
+          }
+        },
+        {
+          "id": "PHI_2",
+          "name": "Tyrese Maxey",
+          "position": "SG",
+          "age": 25,
+          "height": "7'1\"",
+          "weight": 207,
+          "salary": 24685310.73,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 25.6,
+            "rpg": 6.5,
+            "apg": 6.6,
+            "spg": 1.6,
+            "bpg": 1.7,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "PHI_3",
+          "name": "Tobias Harris",
+          "position": "SF",
+          "age": 28,
+          "height": "7'9\"",
+          "weight": 230,
+          "salary": 3558276.62,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 18.5,
+            "rpg": 6.4,
+            "apg": 7.0,
+            "spg": 0.8,
+            "bpg": 0.3,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "PHI_4",
+          "name": "Kelly Oubre Jr.",
+          "position": "PF",
+          "age": 33,
+          "height": "6'11\"",
+          "weight": 205,
+          "salary": 32304576.8,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 30.0,
+            "rpg": 6.0,
+            "apg": 7.6,
+            "spg": 2.0,
+            "bpg": 2.2,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "PHI_5",
+          "name": "Nicolas Batum",
+          "position": "C",
+          "age": 32,
+          "height": "6'4\"",
+          "weight": 246,
+          "salary": 29475096.06,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 23.1,
+            "rpg": 11.7,
+            "apg": 6.0,
+            "spg": 1.4,
+            "bpg": 0.7,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.42
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "PHI",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "PHI",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "PHI",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "PHI",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "PHI",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "PHX": {
+      "id": "24",
+      "name": "Suns",
+      "abbreviation": "PHX",
+      "city": "Phoenix",
+      "conference": "West",
+      "division": "Pacific",
+      "players": [
+        {
+          "id": "PHX_1",
+          "name": "Kevin Durant",
+          "position": "PG",
+          "age": 35,
+          "height": "7'1\"",
+          "weight": 253,
+          "salary": 13809838.5,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 6.9,
+            "rpg": 9.8,
+            "apg": 4.8,
+            "spg": 0.7,
+            "bpg": 2.1,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "PHX_2",
+          "name": "Devin Booker",
+          "position": "SG",
+          "age": 26,
+          "height": "6'8\"",
+          "weight": 257,
+          "salary": 24703836.29,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 17.3,
+            "rpg": 5.9,
+            "apg": 4.0,
+            "spg": 0.6,
+            "bpg": 0.9,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "PHX_3",
+          "name": "Bradley Beal",
+          "position": "SF",
+          "age": 27,
+          "height": "7'9\"",
+          "weight": 241,
+          "salary": 8705427.32,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 24.7,
+            "rpg": 3.2,
+            "apg": 2.7,
+            "spg": 0.5,
+            "bpg": 0.7,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "PHX_4",
+          "name": "Jusuf Nurki\u0107",
+          "position": "PF",
+          "age": 34,
+          "height": "7'0\"",
+          "weight": 254,
+          "salary": 20015516.33,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 17.6,
+            "rpg": 10.1,
+            "apg": 3.1,
+            "spg": 1.1,
+            "bpg": 1.1,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.43
+          }
+        },
+        {
+          "id": "PHX_5",
+          "name": "Grayson Allen",
+          "position": "C",
+          "age": 30,
+          "height": "7'10\"",
+          "weight": 184,
+          "salary": 37433164.53,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 12.8,
+            "rpg": 7.2,
+            "apg": 3.7,
+            "spg": 1.8,
+            "bpg": 2.2,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.44
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "PHX",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "PHX",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "PHX",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "PHX",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "PHX",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "POR": {
+      "id": "25",
+      "name": "Trail Blazers",
+      "abbreviation": "POR",
+      "city": "Portland",
+      "conference": "West",
+      "division": "Northwest",
+      "players": [
+        {
+          "id": "POR_1",
+          "name": "Anfernee Simons",
+          "position": "PG",
+          "age": 32,
+          "height": "6'9\"",
+          "weight": 248,
+          "salary": 20980737.65,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 15.6,
+            "rpg": 11.2,
+            "apg": 2.9,
+            "spg": 1.6,
+            "bpg": 0.9,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.43
+          }
+        },
+        {
+          "id": "POR_2",
+          "name": "Scoot Henderson",
+          "position": "SG",
+          "age": 24,
+          "height": "7'0\"",
+          "weight": 259,
+          "salary": 24516857.25,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 18.5,
+            "rpg": 3.2,
+            "apg": 1.6,
+            "spg": 2.0,
+            "bpg": 1.3,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "POR_3",
+          "name": "Jerami Grant",
+          "position": "SF",
+          "age": 24,
+          "height": "7'9\"",
+          "weight": 195,
+          "salary": 37394878.1,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 7.0,
+            "rpg": 2.3,
+            "apg": 2.0,
+            "spg": 0.4,
+            "bpg": 2.1,
+            "fg_pct": 0.55,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "POR_4",
+          "name": "Deandre Ayton",
+          "position": "PF",
+          "age": 28,
+          "height": "6'8\"",
+          "weight": 176,
+          "salary": 10250689.36,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 28.5,
+            "rpg": 4.2,
+            "apg": 2.8,
+            "spg": 0.9,
+            "bpg": 1.2,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.43
+          }
+        },
+        {
+          "id": "POR_5",
+          "name": "Shaedon Sharpe",
+          "position": "C",
+          "age": 31,
+          "height": "6'0\"",
+          "weight": 189,
+          "salary": 36894088.73,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 18.8,
+            "rpg": 5.1,
+            "apg": 6.1,
+            "spg": 0.3,
+            "bpg": 1.4,
+            "fg_pct": 0.54,
+            "fg3_pct": 0.41
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "POR",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "POR",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "POR",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "POR",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "POR",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "SAC": {
+      "id": "26",
+      "name": "Kings",
+      "abbreviation": "SAC",
+      "city": "Sacramento",
+      "conference": "West",
+      "division": "Pacific",
+      "players": [
+        {
+          "id": "SAC_1",
+          "name": "De'Aaron Fox",
+          "position": "PG",
+          "age": 21,
+          "height": "7'5\"",
+          "weight": 247,
+          "salary": 23458606.08,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 19.4,
+            "rpg": 3.2,
+            "apg": 7.5,
+            "spg": 1.6,
+            "bpg": 0.5,
+            "fg_pct": 0.4,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "SAC_2",
+          "name": "Domantas Sabonis",
+          "position": "SG",
+          "age": 30,
+          "height": "7'4\"",
+          "weight": 181,
+          "salary": 32553967.1,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 23.8,
+            "rpg": 9.4,
+            "apg": 6.1,
+            "spg": 0.9,
+            "bpg": 0.5,
+            "fg_pct": 0.45,
+            "fg3_pct": 0.3
+          }
+        },
+        {
+          "id": "SAC_3",
+          "name": "Keegan Murray",
+          "position": "SF",
+          "age": 22,
+          "height": "6'8\"",
+          "weight": 230,
+          "salary": 5207853.34,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 9.9,
+            "rpg": 2.3,
+            "apg": 8.0,
+            "spg": 1.3,
+            "bpg": 1.1,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "SAC_4",
+          "name": "Harrison Barnes",
+          "position": "PF",
+          "age": 26,
+          "height": "6'2\"",
+          "weight": 228,
+          "salary": 39150132.96,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 12.9,
+            "rpg": 2.2,
+            "apg": 7.5,
+            "spg": 0.6,
+            "bpg": 2.0,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.38
+          }
+        },
+        {
+          "id": "SAC_5",
+          "name": "Malik Monk",
+          "position": "C",
+          "age": 26,
+          "height": "6'3\"",
+          "weight": 252,
+          "salary": 5046299.68,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 24.2,
+            "rpg": 11.6,
+            "apg": 1.3,
+            "spg": 0.4,
+            "bpg": 1.3,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.43
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "SAC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "SAC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "SAC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "SAC",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "SAC",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "SAS": {
+      "id": "27",
+      "name": "Spurs",
+      "abbreviation": "SAS",
+      "city": "San Antonio",
+      "conference": "West",
+      "division": "Southwest",
+      "players": [
+        {
+          "id": "SAS_1",
+          "name": "Victor Wembanyama",
+          "position": "PG",
+          "age": 30,
+          "height": "7'2\"",
+          "weight": 196,
+          "salary": 21560074.34,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 17.9,
+            "rpg": 11.0,
+            "apg": 2.4,
+            "spg": 1.4,
+            "bpg": 1.2,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "SAS_2",
+          "name": "Devin Vassell",
+          "position": "SG",
+          "age": 29,
+          "height": "6'5\"",
+          "weight": 199,
+          "salary": 2276479.68,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 20.1,
+            "rpg": 10.4,
+            "apg": 6.2,
+            "spg": 0.5,
+            "bpg": 1.6,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "SAS_3",
+          "name": "Keldon Johnson",
+          "position": "SF",
+          "age": 34,
+          "height": "7'10\"",
+          "weight": 228,
+          "salary": 4074334.7,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 18.8,
+            "rpg": 6.9,
+            "apg": 5.0,
+            "spg": 1.2,
+            "bpg": 1.2,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.32
+          }
+        },
+        {
+          "id": "SAS_4",
+          "name": "Jeremy Sochan",
+          "position": "PF",
+          "age": 30,
+          "height": "7'4\"",
+          "weight": 253,
+          "salary": 4270273.26,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 25.7,
+            "rpg": 11.9,
+            "apg": 6.5,
+            "spg": 0.5,
+            "bpg": 1.0,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "SAS_5",
+          "name": "Tre Jones",
+          "position": "C",
+          "age": 32,
+          "height": "7'6\"",
+          "weight": 259,
+          "salary": 28832714.21,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 28.4,
+            "rpg": 9.9,
+            "apg": 6.9,
+            "spg": 1.6,
+            "bpg": 0.4,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.31
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "SAS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "SAS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "SAS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "SAS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "SAS",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "TOR": {
+      "id": "28",
+      "name": "Raptors",
+      "abbreviation": "TOR",
+      "city": "Toronto",
+      "conference": "East",
+      "division": "Atlantic",
+      "players": [
+        {
+          "id": "TOR_1",
+          "name": "Scottie Barnes",
+          "position": "PG",
+          "age": 30,
+          "height": "6'8\"",
+          "weight": 213,
+          "salary": 9116152.88,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 20.5,
+            "rpg": 11.2,
+            "apg": 7.3,
+            "spg": 1.1,
+            "bpg": 1.5,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.41
+          }
+        },
+        {
+          "id": "TOR_2",
+          "name": "RJ Barrett",
+          "position": "SG",
+          "age": 22,
+          "height": "6'8\"",
+          "weight": 208,
+          "salary": 23024213.36,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 14.9,
+            "rpg": 7.9,
+            "apg": 5.8,
+            "spg": 0.8,
+            "bpg": 0.4,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.34
+          }
+        },
+        {
+          "id": "TOR_3",
+          "name": "Jakob Poeltl",
+          "position": "SF",
+          "age": 35,
+          "height": "6'7\"",
+          "weight": 195,
+          "salary": 30395218.68,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 6.9,
+            "rpg": 5.5,
+            "apg": 3.7,
+            "spg": 1.9,
+            "bpg": 1.8,
+            "fg_pct": 0.44,
+            "fg3_pct": 0.34
+          }
+        },
+        {
+          "id": "TOR_4",
+          "name": "Immanuel Quickley",
+          "position": "PF",
+          "age": 27,
+          "height": "6'9\"",
+          "weight": 179,
+          "salary": 4584245.29,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 20.8,
+            "rpg": 11.0,
+            "apg": 7.5,
+            "spg": 1.1,
+            "bpg": 0.6,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.42
+          }
+        },
+        {
+          "id": "TOR_5",
+          "name": "Gary Trent Jr.",
+          "position": "C",
+          "age": 27,
+          "height": "7'2\"",
+          "weight": 258,
+          "salary": 15003844.45,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 24.9,
+            "rpg": 11.0,
+            "apg": 6.5,
+            "spg": 1.3,
+            "bpg": 0.5,
+            "fg_pct": 0.43,
+            "fg3_pct": 0.37
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "TOR",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "TOR",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "TOR",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "TOR",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "TOR",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "UTA": {
+      "id": "29",
+      "name": "Jazz",
+      "abbreviation": "UTA",
+      "city": "Utah",
+      "conference": "West",
+      "division": "Northwest",
+      "players": [
+        {
+          "id": "UTA_1",
+          "name": "Lauri Markkanen",
+          "position": "PG",
+          "age": 22,
+          "height": "7'4\"",
+          "weight": 195,
+          "salary": 16009004.44,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 15.9,
+            "rpg": 2.8,
+            "apg": 3.8,
+            "spg": 0.7,
+            "bpg": 2.3,
+            "fg_pct": 0.4,
+            "fg3_pct": 0.33
+          }
+        },
+        {
+          "id": "UTA_2",
+          "name": "Jordan Clarkson",
+          "position": "SG",
+          "age": 33,
+          "height": "6'11\"",
+          "weight": 224,
+          "salary": 1000703.26,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 27.9,
+            "rpg": 6.7,
+            "apg": 2.0,
+            "spg": 0.7,
+            "bpg": 1.9,
+            "fg_pct": 0.5,
+            "fg3_pct": 0.35
+          }
+        },
+        {
+          "id": "UTA_3",
+          "name": "Walker Kessler",
+          "position": "SF",
+          "age": 30,
+          "height": "7'5\"",
+          "weight": 199,
+          "salary": 9122241.12,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 9.5,
+            "rpg": 9.2,
+            "apg": 7.6,
+            "spg": 1.1,
+            "bpg": 2.1,
+            "fg_pct": 0.41,
+            "fg3_pct": 0.34
+          }
+        },
+        {
+          "id": "UTA_4",
+          "name": "Collin Sexton",
+          "position": "PF",
+          "age": 34,
+          "height": "6'6\"",
+          "weight": 217,
+          "salary": 29191648.82,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 29.7,
+            "rpg": 11.9,
+            "apg": 5.6,
+            "spg": 1.2,
+            "bpg": 1.0,
+            "fg_pct": 0.46,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "UTA_5",
+          "name": "Keyonte George",
+          "position": "C",
+          "age": 28,
+          "height": "6'2\"",
+          "weight": 234,
+          "salary": 27421041.62,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 5.3,
+            "rpg": 4.3,
+            "apg": 5.2,
+            "spg": 0.4,
+            "bpg": 0.2,
+            "fg_pct": 0.52,
+            "fg3_pct": 0.37
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "UTA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "UTA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "UTA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "UTA",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "UTA",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    },
+    "WAS": {
+      "id": "30",
+      "name": "Wizards",
+      "abbreviation": "WAS",
+      "city": "Washington",
+      "conference": "East",
+      "division": "Southeast",
+      "players": [
+        {
+          "id": "WAS_1",
+          "name": "Kyle Kuzma",
+          "position": "PG",
+          "age": 22,
+          "height": "6'6\"",
+          "weight": 236,
+          "salary": 6777696.05,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 11.8,
+            "rpg": 11.1,
+            "apg": 3.7,
+            "spg": 1.4,
+            "bpg": 0.6,
+            "fg_pct": 0.49,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "WAS_2",
+          "name": "Jordan Poole",
+          "position": "SG",
+          "age": 21,
+          "height": "7'8\"",
+          "weight": 201,
+          "salary": 16395188.69,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 29.2,
+            "rpg": 3.5,
+            "apg": 6.7,
+            "spg": 0.6,
+            "bpg": 1.4,
+            "fg_pct": 0.48,
+            "fg3_pct": 0.42
+          }
+        },
+        {
+          "id": "WAS_3",
+          "name": "Tyus Jones",
+          "position": "SF",
+          "age": 26,
+          "height": "7'3\"",
+          "weight": 211,
+          "salary": 19667232.16,
+          "contract_years": 4,
+          "stats": {
+            "ppg": 7.9,
+            "rpg": 10.8,
+            "apg": 7.7,
+            "spg": 0.5,
+            "bpg": 1.5,
+            "fg_pct": 0.46,
+            "fg3_pct": 0.36
+          }
+        },
+        {
+          "id": "WAS_4",
+          "name": "Deni Avdija",
+          "position": "PF",
+          "age": 33,
+          "height": "7'3\"",
+          "weight": 228,
+          "salary": 29389731.99,
+          "contract_years": 1,
+          "stats": {
+            "ppg": 29.8,
+            "rpg": 5.4,
+            "apg": 7.7,
+            "spg": 1.7,
+            "bpg": 2.3,
+            "fg_pct": 0.51,
+            "fg3_pct": 0.39
+          }
+        },
+        {
+          "id": "WAS_5",
+          "name": "Marvin Bagley III",
+          "position": "C",
+          "age": 20,
+          "height": "6'10\"",
+          "weight": 179,
+          "salary": 6324640.19,
+          "contract_years": 3,
+          "stats": {
+            "ppg": 12.3,
+            "rpg": 11.5,
+            "apg": 2.9,
+            "spg": 0.4,
+            "bpg": 1.5,
+            "fg_pct": 0.47,
+            "fg3_pct": 0.34
+          }
+        }
+      ],
+      "draft_picks": [
+        {
+          "year": 2026,
+          "round": 1,
+          "original_team": "WAS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2026,
+          "round": 2,
+          "original_team": "WAS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 1,
+          "original_team": "WAS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2027,
+          "round": 2,
+          "original_team": "WAS",
+          "protected": false,
+          "protection_details": null
+        },
+        {
+          "year": 2028,
+          "round": 1,
+          "original_team": "WAS",
+          "protected": false,
+          "protection_details": null
+        }
+      ],
+      "salary_cap": 123000000.0,
+      "luxury_tax": 150000000.0
+    }
+  },
+  "trades": [
+    {
+      "id": "trade_20250517131004",
+      "team1": "CLE",
+      "team2": "BKN",
+      "team1_players": [
+        "CLE_1",
+        "CLE_2"
+      ],
+      "team2_players": [
+        "BKN_2",
+        "BKN_3"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T13:10:04.268335",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517131045",
+      "team1": "CLE",
+      "team2": "LAL",
+      "team1_players": [
+        "CLE_2",
+        "CLE_3"
+      ],
+      "team2_players": [
+        "LAL_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T13:10:45.034865",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517133039",
+      "team1": "MIA",
+      "team2": "TOR",
+      "team1_players": [
+        "MIA_2"
+      ],
+      "team2_players": [
+        "TOR_10"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIA",
+      "timestamp": "2025-05-17T13:30:39.749329",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517133044",
+      "team1": "CLE",
+      "team2": "OKC",
+      "team1_players": [
+        "CLE_2"
+      ],
+      "team2_players": [
+        "OKC_10"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T13:30:44.178596",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517133048",
+      "team1": "MIN",
+      "team2": "SAC",
+      "team1_players": [
+        "MIN_2"
+      ],
+      "team2_players": [
+        "SAC_10"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIN",
+      "timestamp": "2025-05-17T13:30:48.193124",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517133338",
+      "team1": "DAL",
+      "team2": "CHI",
+      "team1_players": [
+        "DAL_2"
+      ],
+      "team2_players": [
+        "CHI_10"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DAL",
+      "timestamp": "2025-05-17T13:33:38.411368",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517133343",
+      "team1": "SAS",
+      "team2": "NYK",
+      "team1_players": [
+        "SAS_2"
+      ],
+      "team2_players": [
+        "NYK_10"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "SAS",
+      "timestamp": "2025-05-17T13:33:43.300379",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517133347",
+      "team1": "MIN",
+      "team2": "CLE",
+      "team1_players": [
+        "MIN_2"
+      ],
+      "team2_players": [
+        "CLE_10"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIN",
+      "timestamp": "2025-05-17T13:33:47.654361",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517135906",
+      "team1": "BOS",
+      "team2": "LAC",
+      "team1_players": [
+        "BOS_2"
+      ],
+      "team2_players": [
+        "LAC_3"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T13:59:06.483676",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517135931",
+      "team1": "BOS",
+      "team2": "LAL",
+      "team1_players": [
+        "BOS_9"
+      ],
+      "team2_players": [
+        "LAL_9"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T13:59:31.013217",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517140045",
+      "team1": "BOS",
+      "team2": "DEN",
+      "team1_players": [
+        "BOS_3",
+        "BOS_10"
+      ],
+      "team2_players": [
+        "DEN_7",
+        "DEN_9"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T14:00:45.766480",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517140114",
+      "team1": "BOS",
+      "team2": "DEN",
+      "team1_players": [
+        "BOS_10"
+      ],
+      "team2_players": [
+        "DEN_9"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T14:01:14.698309",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141220",
+      "team1": "BKN",
+      "team2": "GSW",
+      "team1_players": [
+        "BKN_1"
+      ],
+      "team2_players": [
+        "GSW_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T14:12:20.155930",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141249",
+      "team1": "LAL",
+      "team2": "DAL",
+      "team1_players": [
+        "LAL_2"
+      ],
+      "team2_players": [
+        "DAL_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T14:12:49.210709",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141314",
+      "team1": "CHI",
+      "team2": "SAC",
+      "team1_players": [
+        "CHI_1",
+        "CHI_4"
+      ],
+      "team2_players": [
+        "SAC_1",
+        "SAC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CHI",
+      "timestamp": "2025-05-17T14:13:14.839887",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141314",
+      "team1": "CHI",
+      "team2": "LAC",
+      "team1_players": [
+        "CHI_1",
+        "CHI_4"
+      ],
+      "team2_players": [
+        "LAC_1",
+        "LAC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CHI",
+      "timestamp": "2025-05-17T14:13:14.840495",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141323",
+      "team1": "BKN",
+      "team2": "MIN",
+      "team1_players": [
+        "BKN_1"
+      ],
+      "team2_players": [
+        "MIN_1",
+        "MIN_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BKN",
+      "timestamp": "2025-05-17T14:13:23.317930",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141323",
+      "team1": "BKN",
+      "team2": "SAS",
+      "team1_players": [
+        "BKN_1"
+      ],
+      "team2_players": [
+        "SAS_1",
+        "SAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BKN",
+      "timestamp": "2025-05-17T14:13:23.318297",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141323",
+      "team1": "BKN",
+      "team2": "MEM",
+      "team1_players": [
+        "BKN_1",
+        "BKN_2",
+        "BKN_3"
+      ],
+      "team2_players": [
+        "MEM_1",
+        "MEM_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BKN",
+      "timestamp": "2025-05-17T14:13:23.318562",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141335",
+      "team1": "OKC",
+      "team2": "TOR",
+      "team1_players": [
+        "OKC_4",
+        "OKC_2",
+        "OKC_3"
+      ],
+      "team2_players": [
+        "TOR_1",
+        "TOR_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "OKC",
+      "timestamp": "2025-05-17T14:13:35.716963",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141335",
+      "team1": "OKC",
+      "team2": "LAL",
+      "team1_players": [
+        "OKC_4",
+        "OKC_2",
+        "OKC_3",
+        "OKC_5"
+      ],
+      "team2_players": [
+        "LAL_1",
+        "LAL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "OKC",
+      "timestamp": "2025-05-17T14:13:35.717352",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141345",
+      "team1": "CLE",
+      "team2": "CHI",
+      "team1_players": [
+        "CLE_2"
+      ],
+      "team2_players": [
+        "CHI_1",
+        "CHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T14:13:45.627230",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141345",
+      "team1": "CLE",
+      "team2": "SAS",
+      "team1_players": [
+        "CLE_2"
+      ],
+      "team2_players": [
+        "SAS_1",
+        "SAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T14:13:45.627600",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141354",
+      "team1": "MIL",
+      "team2": "IND",
+      "team1_players": [
+        "MIL_3",
+        "MIL_5",
+        "MIL_2"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIL",
+      "timestamp": "2025-05-17T14:13:54.536068",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141354",
+      "team1": "MIL",
+      "team2": "MEM",
+      "team1_players": [
+        "MIL_3",
+        "MIL_5"
+      ],
+      "team2_players": [
+        "MEM_1",
+        "MEM_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIL",
+      "timestamp": "2025-05-17T14:13:54.536449",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141354",
+      "team1": "MIL",
+      "team2": "NYK",
+      "team1_players": [
+        "MIL_3",
+        "MIL_5"
+      ],
+      "team2_players": [
+        "NYK_1",
+        "NYK_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIL",
+      "timestamp": "2025-05-17T14:13:54.536707",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141407",
+      "team1": "UTA",
+      "team2": "TOR",
+      "team1_players": [
+        "UTA_5"
+      ],
+      "team2_players": [
+        "TOR_1",
+        "TOR_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "UTA",
+      "timestamp": "2025-05-17T14:14:07.375450",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141407",
+      "team1": "UTA",
+      "team2": "CHA",
+      "team1_players": [
+        "UTA_5",
+        "UTA_1"
+      ],
+      "team2_players": [
+        "CHA_1",
+        "CHA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "UTA",
+      "timestamp": "2025-05-17T14:14:07.375835",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141415",
+      "team1": "BOS",
+      "team2": "OKC",
+      "team1_players": [
+        "BOS_5"
+      ],
+      "team2_players": [
+        "OKC_1",
+        "OKC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BOS",
+      "timestamp": "2025-05-17T14:14:15.372620",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141415",
+      "team1": "BOS",
+      "team2": "ATL",
+      "team1_players": [
+        "BOS_5"
+      ],
+      "team2_players": [
+        "ATL_1",
+        "ATL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BOS",
+      "timestamp": "2025-05-17T14:14:15.372959",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141422",
+      "team1": "WAS",
+      "team2": "BKN",
+      "team1_players": [
+        "WAS_5",
+        "WAS_3"
+      ],
+      "team2_players": [
+        "BKN_1",
+        "BKN_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "WAS",
+      "timestamp": "2025-05-17T14:14:22.857393",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141422",
+      "team1": "WAS",
+      "team2": "DET",
+      "team1_players": [
+        "WAS_5",
+        "WAS_3",
+        "WAS_1"
+      ],
+      "team2_players": [
+        "DET_1",
+        "DET_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "WAS",
+      "timestamp": "2025-05-17T14:14:22.857779",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141430",
+      "team1": "MIN",
+      "team2": "NOP",
+      "team1_players": [
+        "MIN_2",
+        "MIN_5",
+        "MIN_3"
+      ],
+      "team2_players": [
+        "NOP_1",
+        "NOP_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIN",
+      "timestamp": "2025-05-17T14:14:30.186236",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141430",
+      "team1": "MIN",
+      "team2": "ATL",
+      "team1_players": [
+        "MIN_2",
+        "MIN_5"
+      ],
+      "team2_players": [
+        "ATL_1",
+        "ATL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIN",
+      "timestamp": "2025-05-17T14:14:30.186613",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141430",
+      "team1": "MIN",
+      "team2": "PHI",
+      "team1_players": [
+        "MIN_2",
+        "MIN_5",
+        "MIN_3"
+      ],
+      "team2_players": [
+        "PHI_1",
+        "PHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "MIN",
+      "timestamp": "2025-05-17T14:14:30.186880",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141442",
+      "team1": "DEN",
+      "team2": "DET",
+      "team1_players": [
+        "DEN_5",
+        "DEN_3",
+        "DEN_4"
+      ],
+      "team2_players": [
+        "DET_1",
+        "DET_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DEN",
+      "timestamp": "2025-05-17T14:14:42.870403",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141442",
+      "team1": "DEN",
+      "team2": "HOU",
+      "team1_players": [
+        "DEN_5",
+        "DEN_3"
+      ],
+      "team2_players": [
+        "HOU_1",
+        "HOU_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DEN",
+      "timestamp": "2025-05-17T14:14:42.870578",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141450",
+      "team1": "LAC",
+      "team2": "LAL",
+      "team1_players": [
+        "LAC_2",
+        "LAC_3",
+        "LAC_5"
+      ],
+      "team2_players": [
+        "LAL_1",
+        "LAL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAC",
+      "timestamp": "2025-05-17T14:14:50.920288",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141450",
+      "team1": "LAC",
+      "team2": "SAS",
+      "team1_players": [
+        "LAC_2",
+        "LAC_3"
+      ],
+      "team2_players": [
+        "SAS_1",
+        "SAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAC",
+      "timestamp": "2025-05-17T14:14:50.920453",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141458",
+      "team1": "PHI",
+      "team2": "ORL",
+      "team1_players": [
+        "PHI_1"
+      ],
+      "team2_players": [
+        "ORL_1",
+        "ORL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "PHI",
+      "timestamp": "2025-05-17T14:14:58.056592",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141458",
+      "team1": "PHI",
+      "team2": "CHA",
+      "team1_players": [
+        "PHI_1"
+      ],
+      "team2_players": [
+        "CHA_1",
+        "CHA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "PHI",
+      "timestamp": "2025-05-17T14:14:58.056970",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141458",
+      "team1": "PHI",
+      "team2": "CLE",
+      "team1_players": [
+        "PHI_1",
+        "PHI_4"
+      ],
+      "team2_players": [
+        "CLE_1",
+        "CLE_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "PHI",
+      "timestamp": "2025-05-17T14:14:58.057576",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141511",
+      "team1": "HOU",
+      "team2": "PHI",
+      "team1_players": [
+        "HOU_3",
+        "HOU_4",
+        "HOU_1",
+        "HOU_5"
+      ],
+      "team2_players": [
+        "PHI_1",
+        "PHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "HOU",
+      "timestamp": "2025-05-17T14:15:11.644558",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141511",
+      "team1": "HOU",
+      "team2": "IND",
+      "team1_players": [
+        "HOU_3",
+        "HOU_4",
+        "HOU_1",
+        "HOU_5"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "HOU",
+      "timestamp": "2025-05-17T14:15:11.644871",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141520",
+      "team1": "DET",
+      "team2": "DAL",
+      "team1_players": [
+        "DET_2",
+        "DET_4",
+        "DET_1"
+      ],
+      "team2_players": [
+        "DAL_1",
+        "DAL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DET",
+      "timestamp": "2025-05-17T14:15:20.528169",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141520",
+      "team1": "DET",
+      "team2": "SAC",
+      "team1_players": [
+        "DET_2",
+        "DET_4",
+        "DET_1"
+      ],
+      "team2_players": [
+        "SAC_1",
+        "SAC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DET",
+      "timestamp": "2025-05-17T14:15:20.528506",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141528",
+      "team1": "TOR",
+      "team2": "PHI",
+      "team1_players": [
+        "TOR_3",
+        "TOR_2"
+      ],
+      "team2_players": [
+        "PHI_1",
+        "PHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T14:15:28.178071",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141528",
+      "team1": "TOR",
+      "team2": "GSW",
+      "team1_players": [
+        "TOR_3",
+        "TOR_2"
+      ],
+      "team2_players": [
+        "GSW_1",
+        "GSW_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T14:15:28.178374",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517141528",
+      "team1": "TOR",
+      "team2": "HOU",
+      "team1_players": [
+        "TOR_3"
+      ],
+      "team2_players": [
+        "HOU_1",
+        "HOU_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T14:15:28.178594",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517144944",
+      "team1": "BKN",
+      "team2": "DET",
+      "team1_players": [
+        "BKN_1"
+      ],
+      "team2_players": [
+        "DET_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T14:49:44.679864",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145007",
+      "team1": "WAS",
+      "team2": "CHI",
+      "team1_players": [
+        "WAS_5",
+        "WAS_3"
+      ],
+      "team2_players": [
+        "CHI_1",
+        "CHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "WAS",
+      "timestamp": "2025-05-17T14:50:07.378542",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145007",
+      "team1": "WAS",
+      "team2": "PHX",
+      "team1_players": [
+        "WAS_5",
+        "WAS_3",
+        "WAS_1"
+      ],
+      "team2_players": [
+        "PHX_1",
+        "PHX_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "WAS",
+      "timestamp": "2025-05-17T14:50:07.378876",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145007",
+      "team1": "WAS",
+      "team2": "IND",
+      "team1_players": [
+        "WAS_5",
+        "WAS_3",
+        "WAS_1",
+        "WAS_2",
+        "WAS_4"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "WAS",
+      "timestamp": "2025-05-17T14:50:07.379298",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145020",
+      "team1": "BOS",
+      "team2": "SAS",
+      "team1_players": [
+        "BOS_5"
+      ],
+      "team2_players": [
+        "SAS_1",
+        "SAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BOS",
+      "timestamp": "2025-05-17T14:50:20.971318",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145020",
+      "team1": "BOS",
+      "team2": "MIA",
+      "team1_players": [
+        "BOS_5",
+        "BOS_4"
+      ],
+      "team2_players": [
+        "MIA_1",
+        "MIA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "BOS",
+      "timestamp": "2025-05-17T14:50:20.971574",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145030",
+      "team1": "POR",
+      "team2": "NYK",
+      "team1_players": [
+        "POR_3",
+        "POR_2"
+      ],
+      "team2_players": [
+        "NYK_1",
+        "NYK_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "POR",
+      "timestamp": "2025-05-17T14:50:30.070173",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145030",
+      "team1": "POR",
+      "team2": "GSW",
+      "team1_players": [
+        "POR_3",
+        "POR_2"
+      ],
+      "team2_players": [
+        "GSW_1",
+        "GSW_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "POR",
+      "timestamp": "2025-05-17T14:50:30.070417",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145039",
+      "team1": "HOU",
+      "team2": "POR",
+      "team1_players": [
+        "HOU_3",
+        "HOU_4"
+      ],
+      "team2_players": [
+        "POR_1",
+        "POR_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "HOU",
+      "timestamp": "2025-05-17T14:50:39.368733",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145039",
+      "team1": "HOU",
+      "team2": "CHA",
+      "team1_players": [
+        "HOU_3",
+        "HOU_4"
+      ],
+      "team2_players": [
+        "CHA_1",
+        "CHA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "HOU",
+      "timestamp": "2025-05-17T14:50:39.368853",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145048",
+      "team1": "TOR",
+      "team2": "MIA",
+      "team1_players": [
+        "TOR_3",
+        "TOR_2"
+      ],
+      "team2_players": [
+        "MIA_1",
+        "MIA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T14:50:48.117612",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145048",
+      "team1": "TOR",
+      "team2": "UTA",
+      "team1_players": [
+        "TOR_3"
+      ],
+      "team2_players": [
+        "UTA_1",
+        "UTA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "TOR",
+      "timestamp": "2025-05-17T14:50:48.117743",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145056",
+      "team1": "ORL",
+      "team2": "MIL",
+      "team1_players": [
+        "ORL_4",
+        "ORL_1",
+        "ORL_3"
+      ],
+      "team2_players": [
+        "MIL_1",
+        "MIL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "ORL",
+      "timestamp": "2025-05-17T14:50:56.812297",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145056",
+      "team1": "ORL",
+      "team2": "SAC",
+      "team1_players": [
+        "ORL_4",
+        "ORL_1",
+        "ORL_3",
+        "ORL_2",
+        "ORL_5"
+      ],
+      "team2_players": [
+        "SAC_1",
+        "SAC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "ORL",
+      "timestamp": "2025-05-17T14:50:56.812652",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145106",
+      "team1": "DET",
+      "team2": "HOU",
+      "team1_players": [
+        "DET_2"
+      ],
+      "team2_players": [
+        "HOU_1",
+        "HOU_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DET",
+      "timestamp": "2025-05-17T14:51:06.348753",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145106",
+      "team1": "DET",
+      "team2": "IND",
+      "team1_players": [
+        "DET_2",
+        "DET_4",
+        "DET_1"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DET",
+      "timestamp": "2025-05-17T14:51:06.349060",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145115",
+      "team1": "DEN",
+      "team2": "SAC",
+      "team1_players": [
+        "DEN_5",
+        "DEN_3",
+        "DEN_4"
+      ],
+      "team2_players": [
+        "SAC_1",
+        "SAC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DEN",
+      "timestamp": "2025-05-17T14:51:15.585676",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145115",
+      "team1": "DEN",
+      "team2": "IND",
+      "team1_players": [
+        "DEN_5",
+        "DEN_3",
+        "DEN_4"
+      ],
+      "team2_players": [
+        "IND_1",
+        "IND_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "DEN",
+      "timestamp": "2025-05-17T14:51:15.585973",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145124",
+      "team1": "UTA",
+      "team2": "GSW",
+      "team1_players": [
+        "UTA_5",
+        "UTA_1",
+        "UTA_3"
+      ],
+      "team2_players": [
+        "GSW_1",
+        "GSW_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "UTA",
+      "timestamp": "2025-05-17T14:51:24.085365",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145124",
+      "team1": "UTA",
+      "team2": "DEN",
+      "team1_players": [
+        "UTA_5",
+        "UTA_1"
+      ],
+      "team2_players": [
+        "DEN_1",
+        "DEN_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "UTA",
+      "timestamp": "2025-05-17T14:51:24.085563",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145124",
+      "team1": "UTA",
+      "team2": "HOU",
+      "team1_players": [
+        "UTA_5"
+      ],
+      "team2_players": [
+        "HOU_1",
+        "HOU_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "UTA",
+      "timestamp": "2025-05-17T14:51:24.085676",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145136",
+      "team1": "LAL",
+      "team2": "WAS",
+      "team1_players": [
+        "LAL_3",
+        "LAL_5"
+      ],
+      "team2_players": [
+        "WAS_1",
+        "WAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAL",
+      "timestamp": "2025-05-17T14:51:36.032521",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145136",
+      "team1": "LAL",
+      "team2": "CHI",
+      "team1_players": [
+        "LAL_3",
+        "LAL_5"
+      ],
+      "team2_players": [
+        "CHI_1",
+        "CHI_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAL",
+      "timestamp": "2025-05-17T14:51:36.032832",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145136",
+      "team1": "LAL",
+      "team2": "HOU",
+      "team1_players": [
+        "LAL_3"
+      ],
+      "team2_players": [
+        "HOU_1",
+        "HOU_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAL",
+      "timestamp": "2025-05-17T14:51:36.033210",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145150",
+      "team1": "GSW",
+      "team2": "BOS",
+      "team1_players": [
+        "GSW_4",
+        "GSW_3"
+      ],
+      "team2_players": [
+        "BOS_1",
+        "BOS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "GSW",
+      "timestamp": "2025-05-17T14:51:50.225809",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145150",
+      "team1": "GSW",
+      "team2": "WAS",
+      "team1_players": [
+        "GSW_4",
+        "GSW_3"
+      ],
+      "team2_players": [
+        "WAS_1",
+        "WAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "GSW",
+      "timestamp": "2025-05-17T14:51:50.226079",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145150",
+      "team1": "GSW",
+      "team2": "MIN",
+      "team1_players": [
+        "GSW_4"
+      ],
+      "team2_players": [
+        "MIN_1",
+        "MIN_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "GSW",
+      "timestamp": "2025-05-17T14:51:50.226280",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145203",
+      "team1": "CLE",
+      "team2": "ORL",
+      "team1_players": [
+        "CLE_2"
+      ],
+      "team2_players": [
+        "ORL_1",
+        "ORL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T14:52:03.007526",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145203",
+      "team1": "CLE",
+      "team2": "CHA",
+      "team1_players": [
+        "CLE_2",
+        "CLE_5"
+      ],
+      "team2_players": [
+        "CHA_1",
+        "CHA_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T14:52:03.007651",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145203",
+      "team1": "CLE",
+      "team2": "POR",
+      "team1_players": [
+        "CLE_2",
+        "CLE_5",
+        "CLE_4"
+      ],
+      "team2_players": [
+        "POR_1",
+        "POR_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "CLE",
+      "timestamp": "2025-05-17T14:52:03.007754",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145216",
+      "team1": "SAC",
+      "team2": "WAS",
+      "team1_players": [
+        "SAC_3",
+        "SAC_4"
+      ],
+      "team2_players": [
+        "WAS_1",
+        "WAS_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "SAC",
+      "timestamp": "2025-05-17T14:52:16.003078",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145216",
+      "team1": "SAC",
+      "team2": "ORL",
+      "team1_players": [
+        "SAC_3",
+        "SAC_4"
+      ],
+      "team2_players": [
+        "ORL_1",
+        "ORL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "SAC",
+      "timestamp": "2025-05-17T14:52:16.003359",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145216",
+      "team1": "SAC",
+      "team2": "TOR",
+      "team1_players": [
+        "SAC_3",
+        "SAC_4"
+      ],
+      "team2_players": [
+        "TOR_1",
+        "TOR_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "SAC",
+      "timestamp": "2025-05-17T14:52:16.003809",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145229",
+      "team1": "LAC",
+      "team2": "GSW",
+      "team1_players": [
+        "LAC_2",
+        "LAC_3",
+        "LAC_5"
+      ],
+      "team2_players": [
+        "GSW_1",
+        "GSW_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAC",
+      "timestamp": "2025-05-17T14:52:29.509873",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517145229",
+      "team1": "LAC",
+      "team2": "MIL",
+      "team1_players": [
+        "LAC_2",
+        "LAC_3",
+        "LAC_5"
+      ],
+      "team2_players": [
+        "MIL_1",
+        "MIL_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "LAC",
+      "timestamp": "2025-05-17T14:52:29.510006",
+      "counter_trade_id": null
+    }
+  ]
+}

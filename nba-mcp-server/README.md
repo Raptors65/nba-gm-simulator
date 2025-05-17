@@ -108,7 +108,7 @@ docker build -t nba_mcp_server .
 
 4. Run the Docker container
 ```
-docker run -d -p 5000:5000 --name nba_mcp_server nba_mcp_server
+docker run -d -p 5000:5001 --name nba_mcp_server nba_mcp_server
 ```
 
 5. Add this to your `claude_desktop_config.json`:
