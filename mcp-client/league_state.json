@@ -748,25 +748,6 @@
           }
         },
         {
-          "id": "CLE_2",
-          "name": "Darius Garland",
-          "position": "SG",
-          "age": 32,
-          "height": "7'3\"",
-          "weight": 185,
-          "salary": 27639908.09,
-          "contract_years": 5,
-          "stats": {
-            "ppg": 13.6,
-            "rpg": 3.5,
-            "apg": 4.3,
-            "spg": 1.3,
-            "bpg": 1.2,
-            "fg_pct": 0.53,
-            "fg3_pct": 0.34
-          }
-        },
-        {
           "id": "CLE_3",
           "name": "Evan Mobley",
           "position": "SF",
@@ -819,6 +800,25 @@
             "apg": 1.1,
             "spg": 1.7,
             "bpg": 0.4,
+            "fg_pct": 0.42,
+            "fg3_pct": 0.31
+          }
+        },
+        {
+          "id": "LAC_1",
+          "name": "Kawhi Leonard",
+          "position": "PG",
+          "age": 30,
+          "height": "6'7\"",
+          "weight": 225,
+          "salary": 23672425.78,
+          "contract_years": 2,
+          "stats": {
+            "ppg": 27.2,
+            "rpg": 2.1,
+            "apg": 4.4,
+            "spg": 1.7,
+            "bpg": 0.9,
             "fg_pct": 0.42,
             "fg3_pct": 0.31
           }
@@ -1737,25 +1737,6 @@
       "division": "Pacific",
       "players": [
         {
-          "id": "LAC_1",
-          "name": "Kawhi Leonard",
-          "position": "PG",
-          "age": 30,
-          "height": "6'7\"",
-          "weight": 225,
-          "salary": 23672425.78,
-          "contract_years": 2,
-          "stats": {
-            "ppg": 27.2,
-            "rpg": 2.1,
-            "apg": 4.4,
-            "spg": 1.7,
-            "bpg": 0.9,
-            "fg_pct": 0.42,
-            "fg3_pct": 0.31
-          }
-        },
-        {
           "id": "LAC_2",
           "name": "Paul George",
           "position": "SG",
@@ -1829,6 +1810,25 @@
             "bpg": 0.3,
             "fg_pct": 0.47,
             "fg3_pct": 0.37
+          }
+        },
+        {
+          "id": "CLE_2",
+          "name": "Darius Garland",
+          "position": "SG",
+          "age": 32,
+          "height": "7'3\"",
+          "weight": 185,
+          "salary": 27639908.09,
+          "contract_years": 5,
+          "stats": {
+            "ppg": 13.6,
+            "rpg": 3.5,
+            "apg": 4.3,
+            "spg": 1.3,
+            "bpg": 1.2,
+            "fg_pct": 0.53,
+            "fg3_pct": 0.34
           }
         }
       ],
@@ -5905,6 +5905,193 @@
       "status": "proposed",
       "proposed_by": "LAC",
       "timestamp": "2025-05-17T14:52:29.510006",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517152532",
+      "team1": "BKN",
+      "team2": "CHI",
+      "team1_players": [
+        "BKN_1"
+      ],
+      "team2_players": [
+        "CHI_5"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:25:32.393835",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517152659",
+      "team1": "CLE",
+      "team2": "LAL",
+      "team1_players": [
+        "CLE_3"
+      ],
+      "team2_players": [
+        "LAL_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:26:59.061788",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517152933",
+      "team1": "CLE",
+      "team2": "LAC",
+      "team1_players": [
+        "CLE_2"
+      ],
+      "team2_players": [
+        "LAC_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "accepted",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:29:33.115345",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517153104",
+      "team1": "BKN",
+      "team2": "DET",
+      "team1_players": [
+        "BKN_1"
+      ],
+      "team2_players": [
+        "DET_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:31:04.163227",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517153155",
+      "team1": "BKN",
+      "team2": "LAC",
+      "team1_players": [
+        "BKN_1"
+      ],
+      "team2_players": [
+        "LAC_2"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:31:55.730993",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517153235",
+      "team1": "BKN",
+      "team2": "MEM",
+      "team1_players": [
+        "BKN_5"
+      ],
+      "team2_players": [
+        "MEM_5"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:32:35.463609",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517153508",
+      "team1": "BKN",
+      "team2": "DET",
+      "team1_players": [
+        "BKN_5"
+      ],
+      "team2_players": [
+        "DET_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:35:08.251486",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517153715",
+      "team1": "BKN",
+      "team2": "DET",
+      "team1_players": [
+        "BKN_5"
+      ],
+      "team2_players": [
+        "DET_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:37:15.167035",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517153824",
+      "team1": "BKN",
+      "team2": "LAL",
+      "team1_players": [
+        "BKN_5"
+      ],
+      "team2_players": [
+        "LAL_4"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:38:24.167381",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517153934",
+      "team1": "BKN",
+      "team2": "NOP",
+      "team1_players": [
+        "BKN_5"
+      ],
+      "team2_players": [
+        "NOP_5"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:39:34.768029",
+      "counter_trade_id": null
+    },
+    {
+      "id": "trade_20250517154057",
+      "team1": "LAL",
+      "team2": "DAL",
+      "team1_players": [
+        "LAL_2"
+      ],
+      "team2_players": [
+        "DAL_1"
+      ],
+      "team1_picks": [],
+      "team2_picks": [],
+      "status": "proposed",
+      "proposed_by": "user",
+      "timestamp": "2025-05-17T15:40:57.252484",
       "counter_trade_id": null
     }
   ]

@@ -419,7 +419,7 @@ class GMAgent:
         
         return TradeProposal(trade=trade, message=message)
     
-    async def connect_to_mcp_server(self, server_script_path: str = "trade_mcp_server.py"):
+    async def connect_to_mcp_server(self, server_script_path: str = "nba_server.py"):
         """Connect to the NBA MCP server for enhanced trade evaluations"""
         try:
             server_params = StdioServerParameters(
@@ -433,6 +433,7 @@ class GMAgent:
             self.mcp_session = await self.exit_stack.enter_async_context(ClientSession(stdio, write))
             
             await self.mcp_session.initialize()
+            print("reached the end, connected to MCP", self.mcp_session, file=sys.stderr)
             return True
         except Exception as e:
             print(f"Error connecting to MCP server: {e}")
@@ -491,18 +492,18 @@ class GMAgent:
         available_tools = []
         if not self.mcp_session:
             connected = await self.connect_to_mcp_server()
-            if connected:
-                try:
-                    # Get available tools from MCP server
-                    response = await self.mcp_session.list_tools()
-                    available_tools = [{ 
-                        "name": tool.name,
-                        "description": tool.description,
-                        "input_schema": tool.inputSchema
-                    } for tool in response.tools]
-                    have_mcp_tools = len(available_tools) > 0
-                except Exception as e:
-                    print(f"Error listing MCP tools: {e}")
+        if self.mcp_session:
+            try:
+                # Get available tools from MCP server
+                response = await self.mcp_session.list_tools()
+                available_tools = [{ 
+                    "name": tool.name,
+                    "description": tool.description,
+                    "input_schema": tool.inputSchema
+                } for tool in response.tools]
+                have_mcp_tools = len(available_tools) > 0
+            except Exception as e:
+                print(f"Error listing MCP tools: {e}")
         
         # Create prompt for Claude
         prompt = f"""You are the General Manager of the {our_team.city} {our_team.name}. 
@@ -548,11 +549,14 @@ Then respond in the following JSON format:
             }
             
             # Add available tools if we have them
+            print("do i have mcp", have_mcp_tools, file=sys.stderr)
             if have_mcp_tools:
                 claude_params["tools"] = available_tools
             
             # Call Claude with or without tools
             response = anthropic.messages.create(**claude_params)
+
+            print("called claude!1!", file=sys.stderr)
             
             # Process response and handle tool calls
             tool_results = []
@@ -564,6 +568,8 @@ Then respond in the following JSON format:
                 elif content.type == 'tool_use' and self.mcp_session:
                     tool_name = content.name
                     tool_args = content.input
+
+                    print("calling tool", tool_name, file=sys.stderr)
                     
                     # Execute tool call through MCP
                     try:
@@ -688,7 +694,7 @@ Then respond in the following JSON format:
 
 # Manager class to coordinate multiple GM agents
 class GMAgentManager:
-    def __init__(self, league_state_path: str = "league_state.json", mcp_server_path: str = "trade_mcp_server.py"):
+    def __init__(self, league_state_path: str = "league_state.json", mcp_server_path: str = "nba_server.py"):
         self.league_state_path = league_state_path
         self.mcp_server_path = mcp_server_path
         self.league_state = LeagueState.load(league_state_path)
