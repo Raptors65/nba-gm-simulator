@@ -79,10 +79,14 @@ class MCPClient:
         """
         if not self.session:
             raise RuntimeError("Not connected to server")
+        
+        print("!", messages)
             
         # Set messages and system prompt
         self.messages = messages
         system_prompt = self.get_team_specific_prompt(team)
+
+        print("hey!!")
 
         response = await self.session.list_tools()
         available_tools = [{ 
@@ -90,6 +94,8 @@ class MCPClient:
             "description": tool.description,
             "input_schema": tool.inputSchema
         } for tool in response.tools]
+
+        print("??")
 
         # Initial Claude API call
         response = self.anthropic.messages.create(
@@ -99,6 +105,8 @@ class MCPClient:
             system=system_prompt,
             tools=available_tools
         )
+
+        print("response gotten")
 
         # Process response and handle tool calls
         tool_results = []
