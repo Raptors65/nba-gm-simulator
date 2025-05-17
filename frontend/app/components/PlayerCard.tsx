@@ -36,29 +36,29 @@ export default function PlayerCard({
     >
       <div className="px-4 py-3 border-b border-gray-200 flex justify-between items-center">
         <div>
-          <h3 className="font-bold">{name}</h3>
+          <h3 className="font-bold text-gray-800">{name}</h3>
           <div className="text-sm text-gray-600">{position} • {age} yrs</div>
         </div>
         <div className="font-medium text-right">
-          <div className="text-gray-900">{formatSalary(salary)}</div>
+          <div className="text-gray-700">{formatSalary(salary)}</div>
         </div>
       </div>
       
       <div className="p-3 grid grid-cols-4 gap-2 text-center text-sm">
         <div>
-          <div className="font-bold">{stats.ppg?.toFixed(1) || '-'}</div>
+          <div className="font-bold text-gray-800">{stats.ppg?.toFixed(1) || '-'}</div>
           <div className="text-xs text-gray-500">PPG</div>
         </div>
         <div>
-          <div className="font-bold">{stats.rpg?.toFixed(1) || '-'}</div>
+          <div className="font-bold text-gray-800">{stats.rpg?.toFixed(1) || '-'}</div>
           <div className="text-xs text-gray-500">RPG</div>
         </div>
         <div>
-          <div className="font-bold">{stats.apg?.toFixed(1) || '-'}</div>
+          <div className="font-bold text-gray-800">{stats.apg?.toFixed(1) || '-'}</div>
           <div className="text-xs text-gray-500">APG</div>
         </div>
         <div>
-          <div className="font-bold">
+          <div className="font-bold text-gray-800">
             {((stats.fg_pct || 0) * 100).toFixed(1)}%
           </div>
           <div className="text-xs text-gray-500">FG%</div>

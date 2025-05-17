@@ -95,13 +95,13 @@ export default function Home() {
         ) : (
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="p-6 mb-2">
-              <h2 className="text-2xl font-bold mb-2">
+              <h2 className="text-2xl font-bold mb-2 text-gray-800">
                 {viewMode === 'chat' 
                   ? 'Select a team to chat with their GM'
                   : 'Select a team to manage as GM'
                 }
               </h2>
-              <p className="text-gray-600">
+              <p className="text-gray-700">
                 {viewMode === 'chat'
                   ? 'Get insights about the team, players, and strategy.'
                   : 'Make trades with other teams and build your roster.'

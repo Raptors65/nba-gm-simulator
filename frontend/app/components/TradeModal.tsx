@@ -359,7 +359,7 @@ export default function TradeModal({
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 p-4">
       <div className="bg-white rounded-lg shadow-xl w-full max-w-6xl max-h-[90vh] flex flex-col overflow-hidden">
         <div className="p-6 border-b border-gray-200 flex justify-between items-center">
-          <h2 className="text-2xl font-bold">Trade Proposal</h2>
+          <h2 className="text-2xl font-bold text-gray-800">Trade Proposal</h2>
           <button onClick={onClose} className="text-gray-500 hover:text-gray-700">
             <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -411,7 +411,7 @@ export default function TradeModal({
                       }`}
                     >
                       <TeamLogo team={team.abbreviation} size={36} />
-                      <span className="text-sm font-medium">{team.abbreviation}</span>
+                      <span className="text-sm font-medium text-gray-800">{team.abbreviation}</span>
                     </button>
                   ))}
                 </div>
@@ -421,7 +421,7 @@ export default function TradeModal({
                 <>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                     <div>
-                      <h3 className="text-lg font-bold mb-3 flex items-center gap-2">
+                      <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-gray-800">
                         <TeamLogo team={userTeam} size={24} />
                         Your Players
                       </h3>
@@ -445,7 +445,7 @@ export default function TradeModal({
                     </div>
                     
                     <div>
-                      <h3 className="text-lg font-bold mb-3 flex items-center gap-2">
+                      <h3 className="text-lg font-bold mb-3 flex items-center gap-2 text-gray-800">
                         <TeamLogo team={selectedTeam.abbreviation} size={24} />
                         {selectedTeam.city} {selectedTeam.name} Players
                       </h3>
@@ -470,17 +470,17 @@ export default function TradeModal({
                   </div>
                   
                   <div className="bg-gray-50 p-4 rounded-lg mb-6">
-                    <h3 className="font-medium mb-3">Trade Summary</h3>
+                    <h3 className="font-medium mb-3 text-gray-800">Trade Summary</h3>
                     
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
                       <div>
                         <div className="text-sm text-gray-600">Your Outgoing Salary:</div>
-                        <div className="font-medium">{formatSalaryInMillions(userTotalSalary)}</div>
+                        <div className="font-medium text-gray-700">{formatSalaryInMillions(userTotalSalary)}</div>
                       </div>
                       
                       <div>
                         <div className="text-sm text-gray-600">Incoming Salary:</div>
-                        <div className="font-medium">{formatSalaryInMillions(targetTotalSalary)}</div>
+                        <div className="font-medium text-gray-700">{formatSalaryInMillions(targetTotalSalary)}</div>
                       </div>
                       
                       <div>
@@ -500,6 +500,7 @@ export default function TradeModal({
                         rows={2}
                         className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
                         placeholder="Add a message to the GM..."
+                        className="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 placeholder-gray-500"
                         value={tradeMessage}
                         onChange={(e) => setTradeMessage(e.target.value)}
                       />

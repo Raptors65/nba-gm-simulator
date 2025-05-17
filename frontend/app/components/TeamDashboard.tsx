@@ -206,7 +206,7 @@ export default function TeamDashboard({ team }: { team: string }) {
         {/* Roster and Salary Section - 3 columns wide */}
         <div className="lg:col-span-3 space-y-6">
           <div className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-xl font-bold mb-4 border-b pb-2">Salary Information</h2>
+            <h2 className="text-xl font-bold mb-4 border-b pb-2 text-gray-800">Salary Information</h2>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <div>
                 <h3 className="text-sm text-gray-600">Total Salary</h3>
@@ -216,11 +216,11 @@ export default function TeamDashboard({ team }: { team: string }) {
               </div>
               <div>
                 <h3 className="text-sm text-gray-600">Salary Cap</h3>
-                <p className="text-lg font-medium">{formatSalaryInMillions(salary_info.cap)}</p>
+                <p className="text-lg font-medium text-gray-700">{formatSalaryInMillions(salary_info.cap)}</p>
               </div>
               <div>
                 <h3 className="text-sm text-gray-600">Luxury Tax</h3>
-                <p className="text-lg font-medium">{formatSalaryInMillions(salary_info.luxury_tax)}</p>
+                <p className="text-lg font-medium text-gray-700">{formatSalaryInMillions(salary_info.luxury_tax)}</p>
               </div>
               <div>
                 <h3 className="text-sm text-gray-600">Cap Space</h3>
@@ -247,34 +247,34 @@ export default function TeamDashboard({ team }: { team: string }) {
 
           <div className="bg-white rounded-lg shadow overflow-hidden">
             <div className="p-6 pb-4">
-              <h2 className="text-xl font-bold mb-2">Team Roster</h2>
+              <h2 className="text-xl font-bold mb-2 text-gray-800">Team Roster</h2>
               <p className="text-sm text-gray-600">{players.length} players</p>
             </div>
             <div className="overflow-x-auto">
               <table className="w-full text-left">
                 <thead className="bg-gray-100">
                   <tr>
-                    <th className="px-6 py-3">Player</th>
-                    <th className="px-6 py-3">Pos</th>
-                    <th className="px-6 py-3">Age</th>
-                    <th className="px-6 py-3">Salary</th>
-                    <th className="px-6 py-3">Years</th>
-                    <th className="px-6 py-3">PPG</th>
-                    <th className="px-6 py-3">RPG</th>
-                    <th className="px-6 py-3">APG</th>
+                    <th className="px-6 py-3 text-gray-700">Player</th>
+                    <th className="px-6 py-3 text-gray-700">Pos</th>
+                    <th className="px-6 py-3 text-gray-700">Age</th>
+                    <th className="px-6 py-3 text-gray-700">Salary</th>
+                    <th className="px-6 py-3 text-gray-700">Years</th>
+                    <th className="px-6 py-3 text-gray-700">PPG</th>
+                    <th className="px-6 py-3 text-gray-700">RPG</th>
+                    <th className="px-6 py-3 text-gray-700">APG</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y">
                   {players.map((player) => (
                     <tr key={player.id} className="hover:bg-gray-50">
-                      <td className="px-6 py-4 font-medium">{player.name}</td>
-                      <td className="px-6 py-4">{player.position}</td>
-                      <td className="px-6 py-4">{player.age}</td>
-                      <td className="px-6 py-4">{formatSalaryInMillions(player.salary)}</td>
-                      <td className="px-6 py-4">{player.contract_years}</td>
-                      <td className="px-6 py-4">{player.stats.ppg?.toFixed(1) || '-'}</td>
-                      <td className="px-6 py-4">{player.stats.rpg?.toFixed(1) || '-'}</td>
-                      <td className="px-6 py-4">{player.stats.apg?.toFixed(1) || '-'}</td>
+                      <td className="px-6 py-4 font-medium text-gray-800">{player.name}</td>
+                      <td className="px-6 py-4 text-gray-700">{player.position}</td>
+                      <td className="px-6 py-4 text-gray-700">{player.age}</td>
+                      <td className="px-6 py-4 text-gray-700">{formatSalaryInMillions(player.salary)}</td>
+                      <td className="px-6 py-4 text-gray-700">{player.contract_years}</td>
+                      <td className="px-6 py-4 text-gray-700">{player.stats.ppg?.toFixed(1) || '-'}</td>
+                      <td className="px-6 py-4 text-gray-700">{player.stats.rpg?.toFixed(1) || '-'}</td>
+                      <td className="px-6 py-4 text-gray-700">{player.stats.apg?.toFixed(1) || '-'}</td>
                     </tr>
                   ))}
                 </tbody>

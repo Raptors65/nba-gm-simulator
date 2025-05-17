@@ -81,7 +81,7 @@ export default function LeagueActivity({ refreshKey = 0 }: LeagueActivityProps) 
   return (
     <div className="bg-white rounded-lg shadow h-full">
       <div className="p-6 pb-4 border-b border-gray-200">
-        <h2 className="text-xl font-bold">League Activity</h2>
+        <h2 className="text-xl font-bold text-gray-800">League Activity</h2>
         <p className="text-sm text-gray-600">Recent trades and negotiations</p>
       </div>
       
@@ -111,7 +111,7 @@ export default function LeagueActivity({ refreshKey = 0 }: LeagueActivityProps) 
                   <div className="grid grid-cols-7 items-center gap-2">
                     <div className="col-span-3 flex items-center gap-2">
                       <TeamLogo team={item.team1.abbr} size={24} />
-                      <div className="text-sm font-medium truncate">{item.team1.name}</div>
+                      <div className="text-sm font-medium truncate text-gray-800">{item.team1.name}</div>
                     </div>
                     
                     <div className="col-span-1 text-center text-xs font-medium text-gray-500">
@@ -120,7 +120,7 @@ export default function LeagueActivity({ refreshKey = 0 }: LeagueActivityProps) 
                     
                     <div className="col-span-3 flex items-center gap-2">
                       <TeamLogo team={item.team2.abbr} size={24} />
-                      <div className="text-sm font-medium truncate">{item.team2.name}</div>
+                      <div className="text-sm font-medium truncate text-gray-800">{item.team2.name}</div>
                     </div>
                   </div>
                   

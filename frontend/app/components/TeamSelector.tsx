@@ -56,7 +56,7 @@ export default function TeamSelector({ onSelectTeam }: TeamSelectorProps) {
         <input
           type="text"
           placeholder="Search for a team..."
-          className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 placeholder-gray-500"
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />
@@ -70,8 +70,8 @@ export default function TeamSelector({ onSelectTeam }: TeamSelectorProps) {
             className="p-3 text-center border border-gray-200 rounded-lg hover:bg-blue-600 hover:text-white transition-colors duration-200 flex flex-col items-center gap-2"
           >
             <TeamLogo team={team.abbr} size={36} />
-            <div className="font-bold">{team.abbr}</div>
-            <div className="text-sm truncate">{team.name}</div>
+            <div className="font-bold text-gray-800">{team.abbr}</div>
+            <div className="text-sm truncate text-gray-700">{team.name}</div>
           </button>
         ))}
       </div>
