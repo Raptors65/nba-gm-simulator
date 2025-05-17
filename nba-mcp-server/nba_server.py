@@ -15,7 +15,7 @@ from datetime import datetime, timedelta
 import pandas as pd
 import os
 from nba_api.live.nba.endpoints import scoreboard, boxscore, playbyplay
-from nba_api.stats.endpoints import commonplayerinfo, playercareerstats, scoreboardv2, teamgamelogs, leaguegamefinder, leaguestandingsv3, teamyearbyyearstats
+from nba_api.stats.endpoints import commonplayerinfo, playercareerstats, scoreboardv2, teamgamelogs, leaguegamefinder, leaguestandingsv3, teamyearbyyearstats, commonteamroster, playergamelog
 from nba_api.stats.static import players, teams
 from nba_api.stats.library.parameters import SeasonType, SeasonYear
 
@@ -336,7 +336,7 @@ def nba_list_active_players(dummy: str = "") -> List[Dict[str, Any]]:
         return [{"error": str(e)}]
 
 # -------------------------------------------------------------------
-# 9) List Today’s Games (Stats vs. Live)
+# 9) List Today's Games (Stats vs. Live)
 # -------------------------------------------------------------------
 
 class TodayGamesInput(BaseModel):
@@ -784,6 +784,127 @@ def nba_player_game_logs(player_id: str, date_range: List[str], season_type: str
     except Exception as e:
         return [{"error": str(e)}]
 
+# -------------------------------------------------------------------
+# 17) nba_team_current_players: Get a Team's Current Players
+# -------------------------------------------------------------------
+class TeamCurrentPlayersInput(BaseModel):
+    team_name: str = Field(..., description="The NBA team name (e.g., 'Cleveland Cavaliers').")
+
+    @field_validator("team_name")
+    def validate_team_name(cls, value):
+        found_teams = teams.find_teams_by_full_name(value)
+        if not found_teams:
+            raise ValueError(f"No NBA team found with the name '{value}'.")
+        return value
+
+@mcp.tool()
+def nba_team_current_players(team_name: str) -> List[Dict[str, Any]]:
+    """Get a list of current players on an NBA team.
+
+    This tool retrieves the current roster of players for a specified NBA team using the
+    `nba_api.stats.endpoints.commonteamroster` endpoint. It first finds the team ID based on
+    the provided team name, then fetches the roster information.
+
+    **Args:**
+
+        team_name (str): The full or partial name of the NBA team (e.g., "Celtics", "Boston Celtics").
+                          This argument is validated to ensure a team with provided name exists.
+
+    **Returns:**
+
+        List[Dict[str, Any]]: A list of dictionaries, where each dictionary represents a player
+            on the team's current roster. Key fields include:
+
+            * "PLAYER": The player's full name.
+            * "PLAYER_ID": The player's ID.
+            * "NUM": The player's jersey number.
+            * "POSITION": The player's position.
+            * "AGE": The player's age.
+            * "HEIGHT": The player's height.
+            * "WEIGHT": The player's weight.
+            * "EXP": Years of NBA experience.
+            * "SCHOOL": The player's college/university.
+            * "PLAYERCODE": A unique code for the player.
+
+            If no team is found or an error occurs, returns a list containing a single dictionary
+            with an "error" key.
+    """
+    try:
+        found_teams = teams.find_teams_by_full_name(team_name)
+        if not found_teams:
+            return [{"error": f"No NBA team found with the name '{team_name}'."}]
+        team_id = found_teams[0]['id']
+        roster = commonteamroster.CommonTeamRoster(team_id=team_id)
+        return roster.get_data_frames()[0].to_dict('records')
+    except Exception as e:
+        return [{"error": str(e)}]
+
+# -------------------------------------------------------------------
+# 18) nba_player_current_season_stats: Get a Player's Current Season Stats
+# -------------------------------------------------------------------
+class PlayerCurrentSeasonStatsInput(BaseModel):
+    player_id: str = Field(..., description="The NBA player ID (e.g., '2544' for LeBron James).")
+    season_type: str = Field(default="Regular Season", description="The season type (e.g., 'Regular Season').")
+
+@mcp.tool()
+def nba_player_current_season_stats(player_id: str, season_type: str = "Regular Season") -> List[Dict[str, Any]]:
+    """Get a player's statistics for the current NBA season.
+
+    This tool retrieves a player's game-by-game statistics for the current season using the
+    `nba_api.stats.endpoints.playergamelog` endpoint. It provides detailed statistics for each
+    game the player has played in the current season.
+
+    **Args:**
+
+        player_id (str): The NBA player ID (e.g., "2544" for LeBron James).
+        season_type (str, optional): The type of season. Valid options are:
+            * "Regular Season"
+            * "Playoffs"
+            * "Pre Season"
+            * "All Star"
+            Defaults to "Regular Season".
+
+    **Returns:**
+
+        List[Dict[str, Any]]: A list of dictionaries, where each dictionary represents a game
+            played by the player in the current season. Key fields include:
+
+            * "GAME_ID": The 10-digit game ID.
+            * "GAME_DATE": The date of the game.
+            * "MATCHUP": Text showing the matchup (e.g., "LAL vs. GSW").
+            * "WL": Win ('W') or Loss ('L').
+            * "MIN": Minutes played.
+            * "PTS": Points scored.
+            * "REB": Rebounds.
+            * "AST": Assists.
+            * "STL": Steals.
+            * "BLK": Blocks.
+            * "TOV": Turnovers.
+            * "FG3M": Three-pointers made.
+            * "FG3A": Three-pointers attempted.
+            * "FG_PCT": Field goal percentage.
+            * "FG3_PCT": Three-point percentage.
+            * "FT_PCT": Free throw percentage.
+            * ...and many other statistical fields.
+
+            If no games are found or an error occurs, returns a list containing a single dictionary
+            with an "error" key.
+    """
+    try:
+        # Get the current season year
+        current_year = datetime.now().year
+        if datetime.now().month < 10:  # If before October, use previous year
+            current_year -= 1
+        season = f"{current_year}-{str(current_year + 1)[-2:]}"
+        
+        gamelog = playergamelog.PlayerGameLog(
+            player_id=player_id,
+            season=season,
+            season_type_all_star=season_type
+        )
+        return gamelog.get_data_frames()[0].to_dict('records')
+    except Exception as e:
+        return [{"error": str(e)}]
 
 if __name__ == "__main__":
     try:
