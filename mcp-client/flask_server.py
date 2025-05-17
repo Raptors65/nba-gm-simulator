@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import asyncio
 from asgiref.sync import async_to_sync
 from client import MCPClient
@@ -6,6 +7,7 @@ import atexit
 import signal
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 mcp_client = None
 loop = None
 
