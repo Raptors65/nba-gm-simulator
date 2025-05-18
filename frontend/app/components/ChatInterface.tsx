@@ -12,7 +12,7 @@ interface ChatInterfaceProps {
 
 export default function ChatInterface({ team }: ChatInterfaceProps) {
   const [messages, setMessages] = useState<Message[]>([
-    { role: 'assistant', content: `Hi there! I'm the General Manager of the ${team}. How can I help you today?` }
+    { role: 'assistant', content: `Hi there! I'm the General Manager of ${team}. How can I help you today?` }
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
