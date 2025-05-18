@@ -114,7 +114,7 @@ export default function Home() {
       </main>
 
       <footer className="max-w-4xl mx-auto mt-12 text-center text-gray-500 dark:text-gray-400 text-sm">
-        <p>Created with Next.js for the MCP Hackathon</p>
+        <p>Created by Lucas for the MCP Hackathon</p>
       </footer>
     </div>
   );
