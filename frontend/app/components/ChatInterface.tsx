@@ -80,7 +80,9 @@ export default function ChatInterface({ team }: ChatInterfaceProps) {
                   : 'bg-gray-200 text-gray-800 rounded-tl-none'
               }`}
             >
-              {message.content}
+              <div className="whitespace-pre-line">
+                {message.content}
+              </div>
             </div>
           </div>
         ))}
@@ -110,7 +112,7 @@ export default function ChatInterface({ team }: ChatInterfaceProps) {
             }
           }}
           placeholder="Ask me anything about the team..."
-          className="flex-1 border border-gray-300 rounded-lg px-4 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 border border-gray-300 rounded-lg px-4 placeholder-gray-400 text-gray-800 py-2 mr-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
         <button
           onClick={handleSendMessage}
